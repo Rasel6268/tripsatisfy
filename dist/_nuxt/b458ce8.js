@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[56],{438:function(e,n,t){"use strict";t.r(n);var l={name:"Hotel",components:{Index:t(373).default}},o=t(17),component=Object(o.a)(l,(function(){return(0,this._self._c)("index",{attrs:{pageTitle:"Hotel"}})}),[],!1,null,null,null);n.default=component.exports}}]);

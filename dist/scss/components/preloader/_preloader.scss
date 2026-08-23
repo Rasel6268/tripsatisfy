@@ -1,0 +1,55 @@
+
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.preloader {
+  // background: lighten($primary, 40%);
+  background: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include vwh100;
+  @include flex-center;
+  z-index: 999999;
+  flex-direction: column;
+
+  .loader {
+    @include square(160);
+    @include flex-center;
+    overflow: hidden;
+    background-color: red;
+  }
+
+ 
+}
+.flight-loader-wrapper {
+  height: 300px;
+  background-color: tan;
+  position: relative;
+  z-index: 999999;
+
+}
+.flight-loader {
+  
+    background: $white;
+  
+    @include vwh100;
+    height: 100%;
+    @include flex-center;
+    flex-direction: column;
+  
+  
+    .loader {
+      @include square(160);
+      @include flex-center;
+      overflow: hidden;
+      background-color: red;
+    }
+  
+    img {
+     width: 100%;
+     display: block;
+      height: size(100);
+    }
+  
+}

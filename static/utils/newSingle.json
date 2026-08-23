@@ -1,0 +1,632 @@
+[
+    {
+        "totalPrice": "BDT3695",
+        "basePrice": "BDT2970",
+        "taxes": "BDT725",
+        "platingCarrier": "BG",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T08:00:00.000+06:00",
+                            "arrival": "2023-03-14T08:45:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "611",
+                            "uapi_segment_ref": "piEEHbSqWDKAR6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAR6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2023-03-14T08:00:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFO"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T15:45:00.000+06:00",
+                            "arrival": "2023-03-14T16:30:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "615",
+                            "uapi_segment_ref": "piEEHbSqWDKAT6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAT6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2023-03-14T15:45:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFO"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T19:45:00.000+06:00",
+                            "arrival": "2023-03-14T20:40:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "617",
+                            "uapi_segment_ref": "piEEHbSqWDKAV6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAV6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2023-03-14T19:45:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "DH8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "DH8"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFO"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT3695",
+                "basePrice": "BDT2970",
+                "taxes": "BDT725",
+                "uapi_fare_reference": "piEEHbSqWDKAY7JxFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT3695",
+                "basePrice": "BDT2970",
+                "taxes": "BDT725"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1
+        }
+    },
+    {
+        "totalPrice": "BDT3695",
+        "basePrice": "BDT2970",
+        "taxes": "BDT725",
+        "platingCarrier": "BS",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T07:15:00.000+06:00",
+                            "arrival": "2023-03-14T08:10:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "101",
+                            "uapi_segment_ref": "piEEHbSqWDKAX6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAX6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T07:15:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T08:00:00.000+06:00",
+                            "arrival": "2023-03-14T08:55:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "103",
+                            "uapi_segment_ref": "piEEHbSqWDKAZ6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAZ6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T08:00:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T09:45:00.000+06:00",
+                            "arrival": "2023-03-14T10:40:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "105",
+                            "uapi_segment_ref": "piEEHbSqWDKAb6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAb6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T09:45:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T12:15:00.000+06:00",
+                            "arrival": "2023-03-14T13:10:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "109",
+                            "uapi_segment_ref": "piEEHbSqWDKAd6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAd6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T12:15:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T15:00:00.000+06:00",
+                            "arrival": "2023-03-14T15:55:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "111",
+                            "uapi_segment_ref": "piEEHbSqWDKAf6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAf6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T15:00:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T17:30:00.000+06:00",
+                            "arrival": "2023-03-14T18:25:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "115",
+                            "uapi_segment_ref": "piEEHbSqWDKAh6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAh6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T17:30:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T18:30:00.000+06:00",
+                            "arrival": "2023-03-14T19:25:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "117",
+                            "uapi_segment_ref": "piEEHbSqWDKAj6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAj6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T18:30:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T20:00:00.000+06:00",
+                            "arrival": "2023-03-14T20:55:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "119",
+                            "uapi_segment_ref": "piEEHbSqWDKAl6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAl6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2023-03-14T20:00:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOMOW"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT3695",
+                "basePrice": "BDT2970",
+                "taxes": "BDT725",
+                "uapi_fare_reference": "piEEHbSqWDKAZ7JxFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT3695",
+                "basePrice": "BDT2970",
+                "taxes": "BDT725"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1
+        }
+    },
+    {
+        "totalPrice": "BDT3999",
+        "basePrice": "BDT3274",
+        "taxes": "BDT725",
+        "platingCarrier": "BS",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2023-03-14T18:05:00.000+06:00",
+                            "arrival": "2023-03-14T19:00:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "333",
+                            "uapi_segment_ref": "piEEHbSqWDKAn6JxFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAn6JxFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "1",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "I",
+                                    "departure": "2023-03-14T18:05:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "I",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "IDOMOW"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT3999",
+                "basePrice": "BDT3274",
+                "taxes": "BDT725",
+                "uapi_fare_reference": "piEEHbSqWDKAa7JxFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT3999",
+                "basePrice": "BDT3274",
+                "taxes": "BDT725"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1
+        }
+    }
+]

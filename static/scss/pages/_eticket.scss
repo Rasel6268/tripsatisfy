@@ -1,0 +1,333 @@
+@use '../global' as *;
+@use '../partials' as *;
+.id {
+    color: $gray-600;
+    margin-bottom: size(20);
+    @include breakpoint(tab992) {
+    margin-bottom: size(20);
+
+    }
+}
+.eticket {
+  
+    
+    &-header {
+        @include setBgColor($primary,$white);
+        border-top-left-radius: size(10);
+        border-top-right-radius: size(10);
+        padding: size(24);
+        @include flex-center-between;
+       
+        .header-left {
+            @include flex-center-vert;
+            gap: size(10);
+            .name {
+                @include font($secondaryFont,22,normal,normal,24);
+                @include breakpoint(tab992) {
+                @include font($secondaryFont,24,normal,normal,24);
+    
+                }
+            }
+            .vl {
+                @include border-single(left,solid,1,$white);
+                height: size(42);
+      
+            }
+            .ticket-id {
+                @include font($secondaryFont,14,normal,normal,20);
+                @include breakpoint(tab992) {
+                @include font($secondaryFont,16,normal,normal,24);
+    
+                }
+            }
+        }
+
+        .header-right {
+            .cross-btn {
+                cursor: pointer;
+            }
+        }
+        
+
+    }
+    &-body {
+        background-color: $white;
+        padding: size(20);
+        .airline-info {
+            @include flex-between;
+            margin-bottom: size(24);
+            flex-direction: column;
+            @include breakpoint(mobile414) {
+                flex-direction: row;
+            } 
+
+            .phone-numbers {
+                color: $gray-600;
+                @include font($secondaryFont,14,normal,normal,20);
+                @include breakpoint(tab992) {
+                @include font($secondaryFont,16,normal,normal,24);
+    
+                } 
+            }
+        }
+        .ticket-info {
+           @include flex-column;
+           gap: size(10);
+           .ticket {
+            @include flex-center-between;
+            @include border(solid,1,$linkborder);
+            padding: size(12);
+            @include radius(8);
+            .left {
+                color: $gray-700;
+               
+                .name {
+                    @include font($secondaryFont,12,medium,normal,20);
+                    @include breakpoint(tab992) {
+                    @include font($secondaryFont,14,medium,normal,24);
+                        
+                    }
+                .number {
+                    @include font($secondaryFont,12,normal,normal,20);
+                    @include breakpoint(tab992) {
+                    @include font($secondaryFont,14,normal,normal,24);
+                        
+                    }
+                }
+                }
+            }
+            .middle {
+               @include breakpoint(mobile576) {
+                .ps-5 {
+                    padding-left: 7rem !important; 
+                }
+               }
+                @include font($secondaryFont,12,normal,normal,20);
+                    @include breakpoint(tab992) {
+                    @include font($secondaryFont,14,normal,normal,24);
+                    width: max-content;
+                        
+                    }
+            }
+            .right {
+                @include flex-column;
+                .destination {
+                    @include font($secondaryFont,12,normal,normal,20);
+                    color: $gray-500;
+                    @include breakpoint(tab992) {
+                    @include font($secondaryFont,14,normal,normal,24);
+                        
+                    }
+                }
+                .seat {
+                    color: $gray-700;
+                    @include font($secondaryFont,12,normal,normal,20);
+                    @include breakpoint(tab992) {
+                    @include font($secondaryFont,14,normal,normal,24);
+                        
+                    }
+                }
+            }
+           } 
+        }
+    }
+}
+
+.eticket-flights {
+    
+    padding: size(20);
+    background-color:$gray-100;
+    table {
+        border-collapse:separate; 
+        border-spacing: 0 8px;
+       
+    }
+    
+   
+    thead { 
+        &::after {
+            // content: "";
+            // display: block;
+            // height: size(8);
+            // width: 100%;
+            // background: transparent;
+        }
+        tr {
+             @include border(solid,1,$linkborder);
+        
+           th {
+            @include font($secondaryFont,14,normal,normal,20);
+            color: $gray-600;
+            @include border(solid,1,$linkborder);
+            border-right: none;
+            border-left: none;
+            &:first-child {
+                border-left: size(1) solid $linkborder;
+                border-top-left-radius:size(8);
+                border-bottom-left-radius:size(8);
+               
+            }
+            &:last-child {
+                border-right: size(1) solid $linkborder;
+                border-top-right-radius:size(8);
+                border-bottom-right-radius: size(8);
+            }
+            
+            
+           }
+        }
+
+    }
+    tbody {
+        @include radius(8);
+        tr {
+            // @include border(solid,1,$linkborder);
+           
+           td {
+            // background-color: red;
+            vertical-align: middle;
+            &:first-child {
+                border-left: size(1) solid $linkborder;
+                border-top-left-radius:size(8);
+                border-bottom-left-radius:size(8);
+               
+            }
+            &:last-child {
+                border-right: size(1) solid $linkborder;
+                border-top-right-radius:size(8);
+                border-bottom-right-radius: size(8);
+            }
+            @include font($secondaryFont,14,normal,normal,20);
+            color: $gray-700; 
+             @include border(solid,1,$linkborder);
+            border-right: none;
+            border-left: none;
+            
+
+           }
+
+        }
+    }
+}
+
+.eticket-ticketdetails {
+    padding: size(20);
+    background-color:$white;
+    table {
+        border-collapse:separate; 
+        border-spacing: 0 8px;
+       
+    }
+    thead { 
+        
+        tr {
+             @include border(solid,1,$linkborder);
+        
+           th {
+            @include font($secondaryFont,12,normal,normal,20);
+            color: $gray-600;
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,14,normal,normal,20);
+            }
+            @include border(solid,1,$linkborder);
+            border-right: none;
+            border-left: none;
+            &:first-child {
+                border-left: size(1) solid $linkborder;
+                border-top-left-radius:size(8);
+                border-bottom-left-radius:size(8);
+               
+            }
+            &:last-child {
+                border-right: size(1) solid $linkborder;
+                border-top-right-radius:size(8);
+                border-bottom-right-radius: size(8);
+            }
+            
+            
+           }
+        }
+
+    }
+    tbody {
+        @include radius(8);
+        tr { 
+           td {
+            vertical-align: baseline;
+            &:first-child {
+                border-left: size(1) solid $linkborder;
+                border-top-left-radius:size(8);
+                border-bottom-left-radius:size(8);
+               
+            }
+            &:last-child {
+                border-right: size(1) solid $linkborder;
+                border-top-right-radius:size(8);
+                border-bottom-right-radius: size(8);
+            }
+            @include font($secondaryFont,12,normal,normal,20);
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,14,normal,normal,20);
+            }
+            color: $gray-700; 
+             @include border(solid,1,$linkborder);
+            border-right: none;
+            border-left: none;
+            
+
+           }
+
+        }
+    }
+} 
+
+.total-ticket {
+    padding: size(20);
+    background: $white;
+    border-bottom-left-radius: size(8);
+    border-bottom-right-radius: size(8);
+    .transaction {
+        padding: size(16);
+        background: $white;
+        @include radius(8);
+        .transaction-title {
+            color: $gray-700;
+            @include font($secondaryFont,14,normal,normal,24);
+        }
+        .transaction-content {
+            >div {
+                @include flex-center-between;
+
+                span {
+                    color: $gray-600;
+                    @include font($secondaryFont,12,normal,normal,24);
+                }
+               .title {
+                color: $gray-700;
+               }
+            }
+    
+            .date {
+                @include flex-column;
+                align-items: flex-end;
+                
+            }
+        }
+    }
+    .eticket-ticketdetails {
+        padding: 0;
+    }
+
+    
+}
+
+.e-tickate-image {
+    margin-top: size(20);
+    @include radius(8);
+    overflow: hidden;
+
+    img {
+        @include wh100;
+        object-fit: cover;
+    }
+}

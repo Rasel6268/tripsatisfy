@@ -1,0 +1,149 @@
+@use '../../global'as *;
+@use '../../partials'as *;
+
+
+.booking-top {
+    padding-bottom: size(14);
+    .nav { 
+        background-color: $bodybg;
+        border-top-left-radius: size(26);
+        border-top-right-radius: size(26);
+        &-item {
+           
+        }
+        &-link {
+            padding: size(24) size(18);
+            
+            @include font($secondaryFont,12,normal,normal,12);
+            @include radius(0);
+            color: $gray-600;
+            @include breakpoint(mobile576){
+            @include font($secondaryFont,14,normal,normal,14);
+            }
+            @include breakpoint(mobile768){
+            @include font($secondaryFont,16,normal,normal,16);
+            }
+
+            @include hover {
+                
+                background: $linkborder;
+            }
+
+            :nth-child(1) {
+                background-color: tan;
+            }
+        }
+
+        &-link.active {
+            border-color: $primary;
+            @include setBgColor($primary,$white);
+           @include hover {
+            background: $primary;
+            }
+        }
+   
+        
+    }
+    
+}
+
+
+
+.collapsed-inner {
+    
+    .nav {
+        padding: size(30) size(0);
+        &-link {
+            border: none;
+            padding: size(8) size(22);
+            @include radius(8);
+            @include font($secondaryFont,12,normal,normal,12);
+            @include radius(8);
+            color: #27272E;
+            @include breakpoint(mobile576){
+            @include font($secondaryFont,14,normal,normal,14);
+            }
+            @include breakpoint(mobile768){
+            @include font($secondaryFont,16,normal,normal,16);
+            }
+            @include hover {
+                border: none;
+            }
+        }
+        &-link.active {
+            border: none;
+            @include setBgColor($white,#27272E);
+            box-shadow: 0px 4px 20px -2px rgba(50, 50, 71, 0.08);
+            filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.1));
+           @include hover {
+            // background: $primary;
+            
+            }
+        }
+        
+    }
+    .nav-tabs {
+        border: none;
+    }
+    .nav-tabs {
+        &.nav-links {
+
+        }
+    }
+
+    .left-tab-content {
+        @include flex-column;
+        gap: size(10);
+    }
+
+    .single-trip-tab {
+        @include flex-column;
+        gap: size(10);
+    }
+
+}
+
+// .nav-tabs{
+//     background-color: $bodybg;
+//     border-top-left-radius: size(24);
+//     border-top-right-radius: size(24);
+//     // display: none;
+// }
+
+// .nav-link{
+//     padding: size(20) size(15);
+//     border: 1px solid red;
+//     @include font($secondaryFont,12,normal,normal,12);
+//     @include radius(0);
+//     color: $gray-600;
+//     @include breakpoint(mobile576){
+//     @include font($secondaryFont,14,normal,normal,14);
+//     }
+//     @include breakpoint(mobile768){
+//     @include font($secondaryFont,16,normal,normal,16);
+//     }
+// }
+// .nav-tabs .nav-link.active{
+//     @include setBgColor($primary,$white);
+//     @include radius(0);
+//     border: 1px solid $primary;
+//     @include hover{
+//         border-color: $primary;
+    
+//     }
+// }
+
+// end
+
+.first {
+    .nav-link {
+        border-top-left-radius: 24px;
+    }
+   
+}
+
+
+
+
+
+

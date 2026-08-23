@@ -1,0 +1,116 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.faq {
+    .accordion {
+        &-item {
+            @include border(solid,1,$gray-200);
+            // border-bottom: none;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+
+            &:last-of-type {
+                border-bottom-left-radius: 0 !important;
+                border-bottom-right-radius: 0 !important;
+                .accordion-button {
+                    // border-top-left-radius: 0 !important;
+                    // border-top-right-radius: 0 !important;
+                    // display: none;
+                    
+                }
+            }
+        }
+        &-header {
+
+        }
+
+        &-body {
+            padding: size(14) size(4);
+            @include font($secondaryFont,14,light,normal,24);
+            color: $gray-600;
+        }
+        &-button {
+            padding: size(18) size(0);
+            @include font($secondaryFont,14,medium,normal,24);
+            color: $gray-700;
+            border: none;
+            &::after {
+                background-image: url("data:image/svg+xml,%3Csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m1.708.911 4.294 4.21 4.294-4.21.003-.003a.566.566 0 0 1 .785.007.554.554 0 0 1 .007.783l-.003.003-4.321 4.237-.176-.178a.834.834 0 0 1-.589.24.847.847 0 0 1-.59-.24L1.709.911Zm0 0a.565.565 0 0 0-.862.084m.862-.084L.846.995m-.096.311c0-.111.034-.22.096-.31m-.096.31.096-.31m-.096.31a.551.551 0 0 0 .167.395L.75 1.306Zm.167.396 4.32 4.236-4.32-4.236Z' fill='%234A5568' stroke='%234A5568' stroke-width='.5'/%3E%3C/svg%3E  ");
+            }
+            &:not(.collapsed) {
+                background: transparent;
+                &::after {
+                background-image: url("data:image/svg+xml,%3Csvg width='12' height='6' viewBox='0 0 12 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.75 5.241 6.748 1.39l4.321 3.478.004.003c.106.089.179.22.177.372a.48.48 0 0 1-.185.367.604.604 0 0 1-.373.129.606.606 0 0 1-.375-.123l-.003-.003-4.312-3.47-4.312 3.47a.592.592 0 0 1-.277.121.634.634 0 0 1-.299-.024.557.557 0 0 1-.254-.17.468.468 0 0 1-.11-.299Zm5.65-4.04c.127.043.246.106.348.189H5.256c.102-.083.22-.146.348-.188a1.26 1.26 0 0 1 .796 0ZM.935 4.869l4.32-3.478-4.32 3.478Z' fill='%234A5568' stroke='%234A5568' stroke-width='.5'/%3E%3C/svg%3E");
+                    
+                }
+            }
+            
+        }
+    }
+}
+
+.holidaydetail {
+    .accordion {
+       
+       
+  
+        &-item {
+            @include border(solid,1,$gray-200);
+            // border-bottom: none;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            // padding: 0;
+
+            &:last-of-type {
+                border-bottom-left-radius: 0 !important;
+                border-bottom-right-radius: 0 !important;
+                .accordion-button {
+                    // border-top-left-radius: 0 !important;
+                    // border-top-right-radius: 0 !important;
+                    // display: none;
+                    
+                }
+            }
+        }
+        &-header {
+
+        }
+
+        &-body {
+            // padding: size(14) size(40);
+            @include font($secondaryFont,14,light,normal,24);
+            color: $gray-600;
+            @include radius(8);
+            .accordion-inner-text {
+                padding: 0 size(20);
+            }
+        }
+        &-button {
+            padding: size(18) size(40);
+            @include font($secondaryFont,16,medium,normal,24);
+            color: $gray-700; 
+            @include breakpoint(mobile768) {
+            @include font($secondaryFont,20,medium,normal,24);
+
+            }
+            @include breakpoint(tab992) {
+            @include font($secondaryFont,20,medium,normal,24);
+
+            }
+            border: none;
+            &::after {
+                background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.66797 19.3346V11.3346H0.667969V8.66797H8.66797V0.667969H11.3346V8.66797H19.3346V11.3346H11.3346V19.3346H8.66797Z' fill='%234A5568'/%3E%3C/svg%3E");
+            }
+            &:not(.collapsed) {
+                background: transparent;
+                &::after {
+                background-image: url("data:image/svg+xml,%3Csvg width='20' height='4' viewBox='0 0 20 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.667969 3.33464V0.667969H19.3346V3.33464H0.667969Z' fill='%234A5568'/%3E%3C/svg%3E%0A");
+                    
+                }
+            }
+            
+        }
+    }
+}

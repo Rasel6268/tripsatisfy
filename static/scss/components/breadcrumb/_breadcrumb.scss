@@ -1,0 +1,32 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.breadcrumb-list {
+    list-style: none;
+    padding: size(10) size(0);
+ 
+    &-item {
+        display: inline-block;
+        max-width: 125px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    li+li {
+		&:before {
+			padding: 8px;
+			color: $gray-600;
+			content: "/\00a0";
+		}
+	}
+
+    &-link {
+        color: $gray-600;
+        @include font($secondaryFont,16,normal,normal,14);
+       
+        &.active {
+            color: $primary2;
+        }
+    }
+
+}

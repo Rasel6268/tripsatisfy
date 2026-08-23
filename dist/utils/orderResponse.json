@@ -1,0 +1,143 @@
+[
+    {
+        "type": "uAPI",
+        "pnr": "3JBSZN",
+        "version": 0,
+        "uapi_ur_locator": "1OJ7ZC",
+        "uapi_reservation_locator": "1OJ7ZD",
+        "airlineLocatorInfo": [
+            {
+                "createDate": "2023-03-20T07:49:00.000+00:00",
+                "supplierCode": "BG",
+                "locatorCode": "OSGKNE"
+            }
+        ],
+        "createdAt": "2023-03-20T07:49:50.222+00:00",
+        "hostCreatedAt": "2023-03-20",
+        "modifiedAt": "2023-03-20T07:49:50.222+00:00",
+        "fareQuotes": [
+            {
+                "pricingInfos": [
+                    {
+                        "uapi_pricing_info_ref": "3WUsfbTqWDKAsXeuKAAAAA==",
+                        "passengers": [
+                            {
+                                "uapi_passenger_ref": "WFSsfbUqWDKASEovKAAAAA==",
+                                "isTicketed": false
+                            }
+                        ],
+                        "uapi_pricing_info_group": "1",
+                        "farePricingMethod": "GuaranteedUsingAirlinePrivateFare",
+                        "farePricingType": "StoredFare",
+                        "totalPrice": "BDT3695",
+                        "basePrice": "BDT2970",
+                        "taxes": "BDT725",
+                        "passengersCount": {
+                            "ADT": 1
+                        },
+                        "taxesInfo": [
+                            {
+                                "value": "BDT25",
+                                "type": "BD"
+                            },
+                            {
+                                "value": "BDT500",
+                                "type": "OW"
+                            },
+                            {
+                                "value": "BDT100",
+                                "type": "P7"
+                            },
+                            {
+                                "value": "BDT70",
+                                "type": "P8"
+                            },
+                            {
+                                "value": "BDT30",
+                                "type": "E5"
+                            }
+                        ],
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "timeToReprice": "2023-03-20T23:49:00.000+06:00",
+                        "fareCalculation": "DAC BG CGP 2970GDACFO BDT2970",
+                        "firstOrigin": "DAC"
+                    }
+                ],
+                "uapi_passenger_refs": [
+                    "WFSsfbUqWDKASEovKAAAAA=="
+                ],
+                "uapi_segment_refs": [
+                    "3WUsfbTqWDKAoXeuKAAAAA=="
+                ],
+                "effectiveDate": "2023-03-20T00:00:00.000+06:00",
+                "endorsement": "REPORTING 2 HRS B4 FLT DEP",
+                "tourCode": null,
+                "platingCarrier": "BG",
+                "index": 1
+            }
+        ],
+        "segments": [
+            {
+                "from": "DAC",
+                "to": "CGP",
+                "group": 0,
+                "departure": "2023-03-21T08:00:00.000+06:00",
+                "arrival": "2023-03-21T08:45:00.000+06:00",
+                "airline": "BG",
+                "flightNumber": "611",
+                "uapi_segment_ref": "3WUsfbTqWDKAoXeuKAAAAA==",
+                "uapiSegmentReference": "3WUsfbTqWDKAoXeuKAAAAA==",
+                "details": [
+                    {
+                        "origin": "DAC",
+                        "destination": "CGP",
+                        "departure": "2023-03-21T08:00:00.000+06:00",
+                        "flightTime": "45",
+                        "travelTime": "45",
+                        "equipment": "738",
+                        "stat": "A"
+                    }
+                ],
+                "serviceClass": "Economy",
+                "plane": [
+                    "738"
+                ],
+                "duration": [
+                    "45"
+                ],
+                "techStops": [],
+                "index": 1,
+                "status": "HK",
+                "bookingClass": "G",
+                "nextSegmentReference": null
+            }
+        ],
+        "serviceSegments": [],
+        "passengers": [
+            {
+                "lastName": "Babor",
+                "firstName": "NM",
+                "uapi_passenger_ref": "WFSsfbUqWDKASEovKAAAAA==",
+                "birthDate": "2023-03-03",
+                "ageCategory": "ADT",
+                "gender": "M"
+            }
+        ],
+        "emails": [],
+        "bookingPCC": "7RS3",
+        "tickets": [],
+        "messages": [
+            {
+                "_": "An internal processing error occurred.",
+                "Code": "50",
+                "Type": "Warning",
+                "ProviderCode": "1G"
+            }
+        ]
+    }
+]

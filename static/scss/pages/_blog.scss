@@ -1,0 +1,134 @@
+
+@use '../global' as *;
+@use '../partials' as *;
+
+
+// BLOG ALL PAGE
+
+.blogfilter {
+    padding: size(0) size(0) size(80);
+    &-content {
+        @include flex-column;
+        gap: size(20);
+    }
+    &-header {
+
+    }
+    &-body {
+        @include flex-column;
+        gap: size(24);
+        .blogs {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: size(24);
+            @include breakpoint(mobile768) {
+                grid-template-columns: repeat(2,1fr);
+            }
+            @include breakpoint(tab992) {
+                grid-template-columns: repeat(4,1fr);
+            }
+        }
+    }
+}
+
+
+// blog detail page
+
+.blogdetail {
+    padding: size(20) size(0) size(80);
+    &-content {
+        @include flex-column;
+        gap: size(40);
+        @include breakpoint(tab992) {
+            gap: size(80);
+        }
+    }
+
+    &-header {
+        .blog-thumb {
+            max-height: size(576);
+            @include w100;
+            overflow: hidden;
+            img {
+                @include wh100;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &-body {
+        max-width: size(856);
+        margin-inline: auto;
+        @include flex-column;
+        gap: size(24);
+        .blog-header {
+            .blog-title {
+                @include font($secondaryFont,24,bold,normal,36);
+                color: $gray-800;
+                @include breakpoint(tab992) {
+                    @include font($secondaryFont,36,bold,normal,43);
+                }
+                
+            }
+        }
+
+        .blog-info {
+            @include flex-column;
+            gap: size(10);
+            @include border-single(bottom,solid,1,$gray-600);
+            @include breakpoint(tab992) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            &-left {
+                color: $gray-600;
+                @include transitionsall;
+                @include font($secondaryFont,14,normal,normal,22);
+                @include breakpoint(tab992) {
+                    @include font($secondaryFont,16,normal,normal,22);
+                }
+
+                .author {
+                    a {
+                        color: $gray-600;
+                        @include transitionsall;
+                        @include font($secondaryFont,14,normal,normal,22);
+                        @include breakpoint(tab992) {
+                            @include font($secondaryFont,16,normal,normal,22);
+                        }
+                        @include hover {
+                            text-decoration: underline;
+                            color: $gray-700;
+                            
+                        }
+                    }
+                }
+            }
+            &-right {
+                color: $gray-600;
+                @include flex-column;
+                gap: size(10);
+                .share {
+                    @include font($secondaryFont,14,medium,normal,22);
+                    @include breakpoint(tab992) {
+                        @include font($secondaryFont,16,medium,normal,22);
+                    }
+                }
+            }
+
+          
+        }
+
+        .blog-text {
+            p {
+                color: $gray-600;
+                @include font($secondaryFont,16,light,normal,28);
+                @include breakpoint(tab992) {
+                    @include font($secondaryFont,18,normal,normal,28);
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,2968 @@
+[
+    {
+        "totalPrice": "BDT98418",
+        "basePrice": "USD680.00",
+        "taxes": "BDT28152",
+        "platingCarrier": "AI",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-15T20:00:00.000+05:30",
+                            "arrival": "2023-03-15T22:35:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "770",
+                            "uapi_segment_ref": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-15T20:00:00.000+05:30",
+                                    "flightTime": "155",
+                                    "travelTime": "155",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "155"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T20:55:00.000+05:30",
+                            "arrival": "2023-03-16T23:05:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "762",
+                            "uapi_segment_ref": "piEEHbSqWDKAhK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAhK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T20:55:00.000+05:30",
+                                    "flightTime": "130",
+                                    "travelTime": "975",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T16:45:00.000+05:30",
+                            "arrival": "2023-03-16T19:00:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "764",
+                            "uapi_segment_ref": "piEEHbSqWDKAlK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAlK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T16:45:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "1225",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T12:10:00.000+05:30",
+                            "arrival": "2023-03-16T14:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "767",
+                            "uapi_segment_ref": "piEEHbSqWDKAnK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAnK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T12:10:00.000+05:30",
+                                    "flightTime": "140",
+                                    "travelTime": "1500",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT98418",
+                "basePrice": "USD680.00",
+                "taxes": "BDT28152",
+                "uapi_fare_reference": "piEEHbSqWDKAVO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT49209",
+                "basePrice": "USD340.00",
+                "equivalentBasePrice": "BDT35133",
+                "taxes": "BDT14076"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT152810",
+        "basePrice": "USD1188.00",
+        "taxes": "BDT30054",
+        "platingCarrier": "AI",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T06:25:00.000+05:30",
+                            "arrival": "2023-03-16T08:55:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "559",
+                            "uapi_segment_ref": "piEEHbSqWDKArK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKArK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T06:25:00.000+05:30",
+                                    "flightTime": "150",
+                                    "travelTime": "835",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "150"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP"
+                        }
+                    ]
+                },
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T10:05:00.000+05:30",
+                            "arrival": "2023-03-16T12:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "543",
+                            "uapi_segment_ref": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T10:05:00.000+05:30",
+                                    "flightTime": "145",
+                                    "travelTime": "1050",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T20:55:00.000+05:30",
+                            "arrival": "2023-03-16T23:05:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "762",
+                            "uapi_segment_ref": "piEEHbSqWDKAhK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAhK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T20:55:00.000+05:30",
+                                    "flightTime": "130",
+                                    "travelTime": "975",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T16:45:00.000+05:30",
+                            "arrival": "2023-03-16T19:00:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "764",
+                            "uapi_segment_ref": "piEEHbSqWDKAlK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAlK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T16:45:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "1225",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T12:10:00.000+05:30",
+                            "arrival": "2023-03-16T14:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "767",
+                            "uapi_segment_ref": "piEEHbSqWDKAnK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAnK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T12:10:00.000+05:30",
+                                    "flightTime": "140",
+                                    "travelTime": "1500",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT152810",
+                "basePrice": "USD1188.00",
+                "taxes": "BDT30054",
+                "uapi_fare_reference": "piEEHbSqWDKAWO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT76405",
+                "basePrice": "USD594.00",
+                "equivalentBasePrice": "BDT61378",
+                "taxes": "BDT15027"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT167898",
+        "basePrice": "USD1334.00",
+        "taxes": "BDT30054",
+        "platingCarrier": "AI",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T06:25:00.000+05:30",
+                            "arrival": "2023-03-16T08:55:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "559",
+                            "uapi_segment_ref": "piEEHbSqWDKArK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKArK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T06:25:00.000+05:30",
+                                    "flightTime": "150",
+                                    "travelTime": "835",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "150"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "J"
+                        }
+                    ]
+                },
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T10:05:00.000+05:30",
+                            "arrival": "2023-03-16T12:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "543",
+                            "uapi_segment_ref": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T10:05:00.000+05:30",
+                                    "flightTime": "145",
+                                    "travelTime": "1050",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "J"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T20:55:00.000+05:30",
+                            "arrival": "2023-03-16T23:05:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "762",
+                            "uapi_segment_ref": "piEEHbSqWDKAhK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAhK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T20:55:00.000+05:30",
+                                    "flightTime": "130",
+                                    "travelTime": "975",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T16:45:00.000+05:30",
+                            "arrival": "2023-03-16T19:00:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "764",
+                            "uapi_segment_ref": "piEEHbSqWDKAlK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAlK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T16:45:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "1225",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "AI",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "CCU",
+                            "group": 2,
+                            "departure": "2023-03-16T12:10:00.000+05:30",
+                            "arrival": "2023-03-16T14:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "767",
+                            "uapi_segment_ref": "piEEHbSqWDKAnK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAnK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-16T12:10:00.000+05:30",
+                                    "flightTime": "140",
+                                    "travelTime": "1500",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        },
+                        {
+                            "from": "CCU",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T12:05:00.000+05:30",
+                            "arrival": "2023-03-17T13:40:00.000+06:00",
+                            "airline": "AI",
+                            "flightNumber": "230",
+                            "uapi_segment_ref": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAjK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T12:05:00.000+05:30",
+                                    "flightTime": "65",
+                                    "travelTime": "975",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "65"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "ZAP3RTBD"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT167898",
+                "basePrice": "USD1334.00",
+                "taxes": "BDT30054",
+                "uapi_fare_reference": "piEEHbSqWDKAcO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT83949",
+                "basePrice": "USD667.00",
+                "equivalentBasePrice": "BDT68922",
+                "taxes": "BDT15027"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT1085022",
+        "basePrice": "USD10208.00",
+        "taxes": "BDT30228",
+        "platingCarrier": "MH",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-15T20:00:00.000+05:30",
+                            "arrival": "2023-03-15T22:35:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "770",
+                            "uapi_segment_ref": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-15T20:00:00.000+05:30",
+                                    "flightTime": "155",
+                                    "travelTime": "155",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "155"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "KUL",
+                            "group": 2,
+                            "departure": "2023-03-16T23:10:00.000+05:30",
+                            "arrival": "2023-03-17T07:05:00.000+08:00",
+                            "airline": "MH",
+                            "flightNumber": "191",
+                            "uapi_segment_ref": "piEEHbSqWDKAvK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAvK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "KUL",
+                                    "destinationTerminal": "M",
+                                    "departure": "2023-03-16T23:10:00.000+05:30",
+                                    "flightTime": "325",
+                                    "travelTime": "700",
+                                    "equipment": "333"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "333"
+                            ],
+                            "duration": [
+                                "325"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        },
+                        {
+                            "from": "KUL",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T09:20:00.000+08:00",
+                            "arrival": "2023-03-17T11:20:00.000+06:00",
+                            "airline": "MH",
+                            "flightNumber": "102",
+                            "uapi_segment_ref": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "KUL",
+                                    "originTerminal": "M",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "1",
+                                    "departure": "2023-03-17T09:20:00.000+08:00",
+                                    "flightTime": "240",
+                                    "travelTime": "700",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "240"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT1085022",
+                "basePrice": "USD10208.00",
+                "taxes": "BDT30228",
+                "uapi_fare_reference": "piEEHbSqWDKAXO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT542511",
+                "basePrice": "USD5104.00",
+                "equivalentBasePrice": "BDT527397",
+                "taxes": "BDT15114"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT1096632",
+        "basePrice": "USD10208.00",
+        "taxes": "BDT41838",
+        "platingCarrier": "MH",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-15T20:00:00.000+05:30",
+                            "arrival": "2023-03-15T22:35:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "770",
+                            "uapi_segment_ref": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-15T20:00:00.000+05:30",
+                                    "flightTime": "155",
+                                    "travelTime": "155",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "155"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "KUL",
+                            "group": 2,
+                            "departure": "2023-03-16T13:20:00.000+05:30",
+                            "arrival": "2023-03-16T21:20:00.000+08:00",
+                            "airline": "MH",
+                            "flightNumber": "173",
+                            "uapi_segment_ref": "piEEHbSqWDKAzK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAzK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "KUL",
+                                    "destinationTerminal": "M",
+                                    "departure": "2023-03-16T13:20:00.000+05:30",
+                                    "flightTime": "330",
+                                    "travelTime": "1290",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "330"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        },
+                        {
+                            "from": "KUL",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T09:20:00.000+08:00",
+                            "arrival": "2023-03-17T11:20:00.000+06:00",
+                            "airline": "MH",
+                            "flightNumber": "102",
+                            "uapi_segment_ref": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "KUL",
+                                    "originTerminal": "M",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "1",
+                                    "departure": "2023-03-17T09:20:00.000+08:00",
+                                    "flightTime": "240",
+                                    "travelTime": "700",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "240"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT1096632",
+                "basePrice": "USD10208.00",
+                "taxes": "BDT41838",
+                "uapi_fare_reference": "piEEHbSqWDKAYO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT548316",
+                "basePrice": "USD5104.00",
+                "equivalentBasePrice": "BDT527397",
+                "taxes": "BDT20919"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT1209076",
+        "basePrice": "USD11292.00",
+        "taxes": "BDT42272",
+        "platingCarrier": "MH",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T06:25:00.000+05:30",
+                            "arrival": "2023-03-16T08:55:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "559",
+                            "uapi_segment_ref": "piEEHbSqWDKArK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKArK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T06:25:00.000+05:30",
+                                    "flightTime": "150",
+                                    "travelTime": "835",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "150"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T10:05:00.000+05:30",
+                            "arrival": "2023-03-16T12:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "543",
+                            "uapi_segment_ref": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T10:05:00.000+05:30",
+                                    "flightTime": "145",
+                                    "travelTime": "1050",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T16:25:00.000+05:30",
+                            "arrival": "2023-03-16T18:45:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "541",
+                            "uapi_segment_ref": "piEEHbSqWDKA1K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA1K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T16:25:00.000+05:30",
+                                    "flightTime": "140",
+                                    "travelTime": "1425",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "CIFOW"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "KUL",
+                            "group": 2,
+                            "departure": "2023-03-16T23:10:00.000+05:30",
+                            "arrival": "2023-03-17T07:05:00.000+08:00",
+                            "airline": "MH",
+                            "flightNumber": "191",
+                            "uapi_segment_ref": "piEEHbSqWDKAvK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAvK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "KUL",
+                                    "destinationTerminal": "M",
+                                    "departure": "2023-03-16T23:10:00.000+05:30",
+                                    "flightTime": "325",
+                                    "travelTime": "700",
+                                    "equipment": "333"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "333"
+                            ],
+                            "duration": [
+                                "325"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        },
+                        {
+                            "from": "KUL",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T09:20:00.000+08:00",
+                            "arrival": "2023-03-17T11:20:00.000+06:00",
+                            "airline": "MH",
+                            "flightNumber": "102",
+                            "uapi_segment_ref": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "KUL",
+                                    "originTerminal": "M",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "1",
+                                    "departure": "2023-03-17T09:20:00.000+08:00",
+                                    "flightTime": "240",
+                                    "travelTime": "700",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "240"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "MH",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "KUL",
+                            "group": 2,
+                            "departure": "2023-03-16T13:20:00.000+05:30",
+                            "arrival": "2023-03-16T21:20:00.000+08:00",
+                            "airline": "MH",
+                            "flightNumber": "173",
+                            "uapi_segment_ref": "piEEHbSqWDKAzK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAzK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "KUL",
+                                    "destinationTerminal": "M",
+                                    "departure": "2023-03-16T13:20:00.000+05:30",
+                                    "flightTime": "330",
+                                    "travelTime": "1290",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "330"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        },
+                        {
+                            "from": "KUL",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T09:20:00.000+08:00",
+                            "arrival": "2023-03-17T11:20:00.000+06:00",
+                            "airline": "MH",
+                            "flightNumber": "102",
+                            "uapi_segment_ref": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAxK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "KUL",
+                                    "originTerminal": "M",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "1",
+                                    "departure": "2023-03-17T09:20:00.000+08:00",
+                                    "flightTime": "240",
+                                    "travelTime": "700",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "240"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "J",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 50
+                                }
+                            ],
+                            "fareBasisCode": "JIFMH"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT1209076",
+                "basePrice": "USD11292.00",
+                "taxes": "BDT42272",
+                "uapi_fare_reference": "piEEHbSqWDKAZO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT604538",
+                "basePrice": "USD5646.00",
+                "equivalentBasePrice": "BDT583402",
+                "taxes": "BDT21136"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT1302472",
+        "basePrice": "USD12132.00",
+        "taxes": "BDT48872",
+        "platingCarrier": "SQ",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-15T20:00:00.000+05:30",
+                            "arrival": "2023-03-15T22:35:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "770",
+                            "uapi_segment_ref": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAfK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-15T20:00:00.000+05:30",
+                                    "flightTime": "155",
+                                    "travelTime": "155",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "155"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "SIN",
+                            "group": 2,
+                            "departure": "2023-03-16T09:55:00.000+05:30",
+                            "arrival": "2023-03-16T18:15:00.000+08:00",
+                            "airline": "SQ",
+                            "flightNumber": "401",
+                            "uapi_segment_ref": "piEEHbSqWDKA3K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA3K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "SIN",
+                                    "destinationTerminal": "0",
+                                    "departure": "2023-03-16T09:55:00.000+05:30",
+                                    "flightTime": "350",
+                                    "travelTime": "735",
+                                    "equipment": "787"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "787"
+                            ],
+                            "duration": [
+                                "350"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFSQ"
+                        },
+                        {
+                            "from": "SIN",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-16T20:35:00.000+08:00",
+                            "arrival": "2023-03-16T22:40:00.000+06:00",
+                            "airline": "SQ",
+                            "flightNumber": "446",
+                            "uapi_segment_ref": "piEEHbSqWDKA5K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA5K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "SIN",
+                                    "originTerminal": "3",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-16T20:35:00.000+08:00",
+                                    "flightTime": "245",
+                                    "travelTime": "735",
+                                    "equipment": "359"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "359"
+                            ],
+                            "duration": [
+                                "245"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFSQ"
+                        }
+                    ]
+                },
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "SIN",
+                            "group": 2,
+                            "departure": "2023-03-16T21:50:00.000+05:30",
+                            "arrival": "2023-03-17T06:05:00.000+08:00",
+                            "airline": "SQ",
+                            "flightNumber": "403",
+                            "uapi_segment_ref": "piEEHbSqWDKA7K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA7K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "SIN",
+                                    "destinationTerminal": "0",
+                                    "departure": "2023-03-16T21:50:00.000+05:30",
+                                    "flightTime": "345",
+                                    "travelTime": "1460",
+                                    "equipment": "77W"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "77W"
+                            ],
+                            "duration": [
+                                "345"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFSQ"
+                        },
+                        {
+                            "from": "SIN",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T20:35:00.000+08:00",
+                            "arrival": "2023-03-17T22:40:00.000+06:00",
+                            "airline": "SQ",
+                            "flightNumber": "446",
+                            "uapi_segment_ref": "piEEHbSqWDKA9K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA9K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "SIN",
+                                    "originTerminal": "3",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T20:35:00.000+08:00",
+                                    "flightTime": "245",
+                                    "travelTime": "1460",
+                                    "equipment": "359"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "359"
+                            ],
+                            "duration": [
+                                "245"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFSQ"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT1302472",
+                "basePrice": "USD12132.00",
+                "taxes": "BDT48872",
+                "uapi_fare_reference": "piEEHbSqWDKAaO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT651236",
+                "basePrice": "USD6066.00",
+                "equivalentBasePrice": "BDT626800",
+                "taxes": "BDT24436"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    },
+    {
+        "totalPrice": "BDT1414916",
+        "basePrice": "USD13216.00",
+        "taxes": "BDT49306",
+        "platingCarrier": "SQ",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CCU",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CCU",
+                            "group": 0,
+                            "departure": "2023-03-15T14:45:00.000+06:00",
+                            "arrival": "2023-03-15T15:25:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "229",
+                            "uapi_segment_ref": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAdK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "2",
+                                    "destination": "CCU",
+                                    "departure": "2023-03-15T14:45:00.000+06:00",
+                                    "flightTime": "70",
+                                    "travelTime": "70",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "70"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T06:25:00.000+05:30",
+                            "arrival": "2023-03-16T08:55:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "559",
+                            "uapi_segment_ref": "piEEHbSqWDKArK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKArK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T06:25:00.000+05:30",
+                                    "flightTime": "150",
+                                    "travelTime": "835",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "150"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T10:05:00.000+05:30",
+                            "arrival": "2023-03-16T12:30:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "543",
+                            "uapi_segment_ref": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKAtK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T10:05:00.000+05:30",
+                                    "flightTime": "145",
+                                    "travelTime": "1050",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFOW"
+                        }
+                    ]
+                },
+                {
+                    "from": "CCU",
+                    "to": "DEL",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "CCU",
+                            "to": "HYD",
+                            "group": 1,
+                            "departure": "2023-03-15T19:00:00.000+05:30",
+                            "arrival": "2023-03-15T21:15:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "526",
+                            "uapi_segment_ref": "piEEHbSqWDKApK8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKApK8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CCU",
+                                    "destination": "HYD",
+                                    "departure": "2023-03-15T19:00:00.000+05:30",
+                                    "flightTime": "135",
+                                    "travelTime": "835",
+                                    "equipment": "319"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "319"
+                            ],
+                            "duration": [
+                                "135"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFRT"
+                        },
+                        {
+                            "from": "HYD",
+                            "to": "DEL",
+                            "group": 1,
+                            "departure": "2023-03-16T16:25:00.000+05:30",
+                            "arrival": "2023-03-16T18:45:00.000+05:30",
+                            "airline": "AI",
+                            "flightNumber": "541",
+                            "uapi_segment_ref": "piEEHbSqWDKA1K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA1K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "HYD",
+                                    "destination": "DEL",
+                                    "destinationTerminal": "3",
+                                    "departure": "2023-03-16T16:25:00.000+05:30",
+                                    "flightTime": "140",
+                                    "travelTime": "1425",
+                                    "equipment": "32N"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "32N"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "C",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFOW"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "DEL",
+                    "to": "DAC",
+                    "platingCarrier": "SQ",
+                    "segments": [
+                        {
+                            "from": "DEL",
+                            "to": "SIN",
+                            "group": 2,
+                            "departure": "2023-03-16T21:50:00.000+05:30",
+                            "arrival": "2023-03-17T06:05:00.000+08:00",
+                            "airline": "SQ",
+                            "flightNumber": "403",
+                            "uapi_segment_ref": "piEEHbSqWDKA7K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA7K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DEL",
+                                    "originTerminal": "3",
+                                    "destination": "SIN",
+                                    "destinationTerminal": "0",
+                                    "departure": "2023-03-16T21:50:00.000+05:30",
+                                    "flightTime": "345",
+                                    "travelTime": "1460",
+                                    "equipment": "77W"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "77W"
+                            ],
+                            "duration": [
+                                "345"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFSQ"
+                        },
+                        {
+                            "from": "SIN",
+                            "to": "DAC",
+                            "group": 2,
+                            "departure": "2023-03-17T20:35:00.000+08:00",
+                            "arrival": "2023-03-17T22:40:00.000+06:00",
+                            "airline": "SQ",
+                            "flightNumber": "446",
+                            "uapi_segment_ref": "piEEHbSqWDKA9K8nFAAAAA==",
+                            "uapiSegmentReference": "piEEHbSqWDKA9K8nFAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "SIN",
+                                    "originTerminal": "3",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2023-03-17T20:35:00.000+08:00",
+                                    "flightTime": "245",
+                                    "travelTime": "1460",
+                                    "equipment": "359"
+                                }
+                            ],
+                            "serviceClass": "Business",
+                            "plane": [
+                                "359"
+                            ],
+                            "duration": [
+                                "245"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Z",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 40
+                                }
+                            ],
+                            "fareBasisCode": "CIFSQ"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "BDT1414916",
+                "basePrice": "USD13216.00",
+                "taxes": "BDT49306",
+                "uapi_fare_reference": "piEEHbSqWDKAbO8nFAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "BDT707458",
+                "basePrice": "USD6608.00",
+                "equivalentBasePrice": "BDT682805",
+                "taxes": "BDT24653"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 2
+        }
+    }
+]

@@ -1,0 +1,792 @@
+{
+    "ticket": [
+        {
+            "pnr": "76C78W",
+            "noAdc": false,
+            "taxes": "BDT1749",
+            "tickets": [
+                {
+                    "coupons": [
+                        {
+                            "to": "CGP",
+                            "key": "0lWHM2QDuDKAu+kYXcBAAA==",
+                            "from": "DAC",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-06-12T08:00:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "1",
+                            "flightNumber": "103",
+                            "ticketNumber": "7796801383046",
+                            "fareBasisCode": "VDOM6M/CH25",
+                            "notValidAfter": "2024-06-12",
+                            "notValidBefore": "2024-06-12"
+                        },
+                        {
+                            "to": "DAC",
+                            "key": "0lWHM2QDuDKAv+kYXcBAAA==",
+                            "from": "CGP",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-08-01T08:30:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "2",
+                            "flightNumber": "102",
+                            "ticketNumber": "7796801383046",
+                            "fareBasisCode": "VDOM6M/CH25",
+                            "notValidAfter": "2024-08-01",
+                            "notValidBefore": "2024-08-01"
+                        }
+                    ],
+                    "ticketNumber": "7796801383046"
+                }
+            ],
+            "issuedAt": "2024-03-07T00:00:00.000+06:00",
+            "basePrice": "BDT6411",
+            "taxesInfo": [
+                {
+                    "type": "BD",
+                    "value": "BDT50"
+                },
+                {
+                    "type": "OW",
+                    "value": "BDT1000"
+                },
+                {
+                    "type": "P7",
+                    "value": "BDT200"
+                },
+                {
+                    "type": "P8",
+                    "value": "BDT140"
+                },
+                {
+                    "type": "UT",
+                    "value": "BDT200"
+                },
+                {
+                    "type": "E5",
+                    "value": "BDT59"
+                },
+                {
+                    "type": "YQ",
+                    "value": "BDT100"
+                }
+            ],
+            "commission": {
+                "type": "Z",
+                "value": 7
+            },
+            "iataNumber": "42337256",
+            "passengers": [
+                {
+                    "lastName": "HOSSEN",
+                    "firstName": "MANNAMstr"
+                }
+            ],
+            "totalPrice": "BDT8160",
+            "firstOrigin": "DAC",
+            "ticketNumber": "7796801383046",
+            "ticketingPcc": "7RS3",
+            "formOfPayment": [
+                "CASH"
+            ],
+            "platingCarrier": "BS",
+            "fareCalculation": "DAC BS CGP 3206 BS DAC 3205 BDT6411",
+            "farePricingType": "StoredFare",
+            "uapi_ur_locator": "8X7TV2",
+            "farePricingMethod": "Guaranteed",
+            "priceInfoAvailable": true,
+            "isConjunctionTicket": false,
+            "uapi_reservation_locator": "8X83VG",
+            "priceInfoDetailsAvailable": true
+        },
+        {
+            "pnr": "76C78W",
+            "noAdc": false,
+            "taxes": "BDT491",
+            "tickets": [
+                {
+                    "coupons": [
+                        {
+                            "to": "CGP",
+                            "key": "0lWHM2QDuDKAPBlYXcBAAA==",
+                            "from": "DAC",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-06-12T08:00:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "1",
+                            "flightNumber": "103",
+                            "ticketNumber": "7796801383047",
+                            "fareBasisCode": "VDOM6M/IN90",
+                            "notValidAfter": "2024-06-12",
+                            "notValidBefore": "2024-06-12"
+                        },
+                        {
+                            "to": "DAC",
+                            "key": "0lWHM2QDuDKAQBlYXcBAAA==",
+                            "from": "CGP",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-08-01T08:30:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "2",
+                            "flightNumber": "102",
+                            "ticketNumber": "7796801383047",
+                            "fareBasisCode": "VDOM6M/IN90",
+                            "notValidAfter": "2024-08-01",
+                            "notValidBefore": "2024-08-01"
+                        }
+                    ],
+                    "ticketNumber": "7796801383047"
+                }
+            ],
+            "issuedAt": "2024-03-07T00:00:00.000+06:00",
+            "basePrice": "BDT855",
+            "taxesInfo": [
+                {
+                    "type": "P7",
+                    "value": "BDT200"
+                },
+                {
+                    "type": "P8",
+                    "value": "BDT140"
+                },
+                {
+                    "type": "E5",
+                    "value": "BDT51"
+                },
+                {
+                    "type": "YQ",
+                    "value": "BDT100"
+                }
+            ],
+            "commission": {
+                "type": "Z",
+                "value": 7
+            },
+            "iataNumber": "42337256",
+            "passengers": [
+                {
+                    "lastName": "HOSSAIN",
+                    "firstName": "JAKRMr"
+                }
+            ],
+            "totalPrice": "BDT1346",
+            "firstOrigin": "DAC",
+            "ticketNumber": "7796801383047",
+            "ticketingPcc": "7RS3",
+            "formOfPayment": [
+                "CASH"
+            ],
+            "platingCarrier": "BS",
+            "fareCalculation": "DAC BS CGP 428 BS DAC 427 BDT855",
+            "farePricingType": "StoredFare",
+            "uapi_ur_locator": "8X7TV2",
+            "farePricingMethod": "Guaranteed",
+            "priceInfoAvailable": true,
+            "isConjunctionTicket": false,
+            "uapi_reservation_locator": "8X83VG",
+            "priceInfoDetailsAvailable": true
+        },
+        {
+            "pnr": "76C78W",
+            "noAdc": false,
+            "taxes": "BDT1949",
+            "tickets": [
+                {
+                    "coupons": [
+                        {
+                            "to": "CGP",
+                            "key": "0lWHM2QDuDKAg+kYXcBAAA==",
+                            "from": "DAC",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-06-12T08:00:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "1",
+                            "flightNumber": "103",
+                            "ticketNumber": "7796801383044",
+                            "fareBasisCode": "VDOM6M",
+                            "notValidAfter": "2024-06-12",
+                            "notValidBefore": "2024-06-12"
+                        },
+                        {
+                            "to": "DAC",
+                            "key": "0lWHM2QDuDKAh+kYXcBAAA==",
+                            "from": "CGP",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-08-01T08:30:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "2",
+                            "flightNumber": "102",
+                            "ticketNumber": "7796801383044",
+                            "fareBasisCode": "VDOM6M",
+                            "notValidAfter": "2024-08-01",
+                            "notValidBefore": "2024-08-01"
+                        }
+                    ],
+                    "ticketNumber": "7796801383044"
+                }
+            ],
+            "issuedAt": "2024-03-07T00:00:00.000+06:00",
+            "basePrice": "BDT8548",
+            "taxesInfo": [
+                {
+                    "type": "BD",
+                    "value": "BDT50"
+                },
+                {
+                    "type": "OW",
+                    "value": "BDT1000"
+                },
+                {
+                    "type": "P7",
+                    "value": "BDT200"
+                },
+                {
+                    "type": "P8",
+                    "value": "BDT140"
+                },
+                {
+                    "type": "UT",
+                    "value": "BDT400"
+                },
+                {
+                    "type": "E5",
+                    "value": "BDT59"
+                },
+                {
+                    "type": "YQ",
+                    "value": "BDT100"
+                }
+            ],
+            "commission": {
+                "type": "Z",
+                "value": 7
+            },
+            "iataNumber": "42337256",
+            "passengers": [
+                {
+                    "lastName": "alam",
+                    "firstName": "sultanaMrs"
+                }
+            ],
+            "totalPrice": "BDT10497",
+            "firstOrigin": "DAC",
+            "ticketNumber": "7796801383044",
+            "ticketingPcc": "7RS3",
+            "formOfPayment": [
+                "CASH"
+            ],
+            "platingCarrier": "BS",
+            "fareCalculation": "DAC BS CGP 4274 BS DAC 4274 BDT8548",
+            "farePricingType": "StoredFare",
+            "uapi_ur_locator": "8X7TV2",
+            "farePricingMethod": "Guaranteed",
+            "priceInfoAvailable": true,
+            "isConjunctionTicket": false,
+            "uapi_reservation_locator": "8X83VG",
+            "priceInfoDetailsAvailable": true
+        },
+        {
+            "pnr": "76C78W",
+            "noAdc": false,
+            "taxes": "BDT1549",
+            "tickets": [
+                {
+                    "coupons": [
+                        {
+                            "to": "CGP",
+                            "key": "0lWHM2QDuDKAn+kYXcBAAA==",
+                            "from": "DAC",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-06-12T08:00:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "1",
+                            "flightNumber": "103",
+                            "ticketNumber": "7796801383045",
+                            "fareBasisCode": "VDOM6M/CH25",
+                            "notValidAfter": "2024-06-12",
+                            "notValidBefore": "2024-06-12"
+                        },
+                        {
+                            "to": "DAC",
+                            "key": "0lWHM2QDuDKAo+kYXcBAAA==",
+                            "from": "CGP",
+                            "status": "O",
+                            "airline": "BS",
+                            "stopover": true,
+                            "departure": "2024-08-01T08:30:00.000+06:00",
+                            "bookingClass": "V",
+                            "couponNumber": "2",
+                            "flightNumber": "102",
+                            "ticketNumber": "7796801383045",
+                            "fareBasisCode": "VDOM6M/CH25",
+                            "notValidAfter": "2024-08-01",
+                            "notValidBefore": "2024-08-01"
+                        }
+                    ],
+                    "ticketNumber": "7796801383045"
+                }
+            ],
+            "issuedAt": "2024-03-07T00:00:00.000+06:00",
+            "basePrice": "BDT6411",
+            "taxesInfo": [
+                {
+                    "type": "BD",
+                    "value": "BDT50"
+                },
+                {
+                    "type": "OW",
+                    "value": "BDT1000"
+                },
+                {
+                    "type": "P7",
+                    "value": "BDT200"
+                },
+                {
+                    "type": "P8",
+                    "value": "BDT140"
+                },
+                {
+                    "type": "E5",
+                    "value": "BDT59"
+                },
+                {
+                    "type": "YQ",
+                    "value": "BDT100"
+                }
+            ],
+            "commission": {
+                "type": "Z",
+                "value": 7
+            },
+            "iataNumber": "42337256",
+            "passengers": [
+                {
+                    "lastName": "HASAN",
+                    "firstName": "RAKIBULMstr"
+                }
+            ],
+            "totalPrice": "BDT7960",
+            "firstOrigin": "DAC",
+            "ticketNumber": "7796801383045",
+            "ticketingPcc": "7RS3",
+            "formOfPayment": [
+                "CASH"
+            ],
+            "platingCarrier": "BS",
+            "fareCalculation": "DAC BS CGP 3206 BS DAC 3205 BDT6411",
+            "farePricingType": "StoredFare",
+            "uapi_ur_locator": "8X7TV2",
+            "farePricingMethod": "Guaranteed",
+            "priceInfoAvailable": true,
+            "isConjunctionTicket": false,
+            "uapi_reservation_locator": "8X83VG",
+            "priceInfoDetailsAvailable": true
+        }
+    ],
+    "booking": {
+        "pnr": "76C78W",
+        "type": "uAPI",
+        "emails": [],
+        "tickets": [],
+        "version": 0,
+        "messages": [
+            {
+                "_": "Brand optional services were filtered out as they are not offered in the brand or are only available at a charge.",
+                "Code": "13566",
+                "Type": "Warning",
+                "ProviderCode": "1G"
+            },
+            {
+                "_": "The fare HostToken has been ignored. The BrandTier has been applied.",
+                "Code": "3824",
+                "Type": "Warning",
+                "ProviderCode": "1G"
+            }
+        ],
+        "segments": [
+            {
+                "to": "CGP",
+                "from": "DAC",
+                "group": 0,
+                "index": 1,
+                "plane": [
+                    "AT7"
+                ],
+                "status": "HK",
+                "airline": "BS",
+                "arrival": "2024-06-12T09:00:00.000+06:00",
+                "details": [
+                    {
+                        "stat": "C",
+                        "origin": "DAC",
+                        "departure": "2024-06-12T08:00:00.000+06:00",
+                        "equipment": "AT7",
+                        "flightTime": "60",
+                        "travelTime": "60",
+                        "destination": "CGP",
+                        "originTerminal": "D",
+                        "destinationTerminal": "D"
+                    }
+                ],
+                "duration": [
+                    "60"
+                ],
+                "departure": "2024-06-12T08:00:00.000+06:00",
+                "techStops": [],
+                "bookingClass": "V",
+                "flightNumber": "103",
+                "serviceClass": "Economy",
+                "uapi_segment_ref": "0rHfQ4H3nDKATEeAzEAAAA==",
+                "nextSegmentReference": null,
+                "uapiSegmentReference": "0rHfQ4H3nDKATEeAzEAAAA=="
+            },
+            {
+                "to": "DAC",
+                "from": "CGP",
+                "group": 1,
+                "index": 2,
+                "plane": [
+                    "AT7"
+                ],
+                "status": "HK",
+                "airline": "BS",
+                "arrival": "2024-08-01T09:25:00.000+06:00",
+                "details": [
+                    {
+                        "stat": "C",
+                        "origin": "CGP",
+                        "departure": "2024-08-01T08:30:00.000+06:00",
+                        "equipment": "AT7",
+                        "flightTime": "55",
+                        "travelTime": "55",
+                        "destination": "DAC",
+                        "originTerminal": "D",
+                        "destinationTerminal": "D"
+                    }
+                ],
+                "duration": [
+                    "55"
+                ],
+                "departure": "2024-08-01T08:30:00.000+06:00",
+                "techStops": [],
+                "bookingClass": "V",
+                "flightNumber": "102",
+                "serviceClass": "Economy",
+                "uapi_segment_ref": "0rHfQ4H3nDKAVEeAzEAAAA==",
+                "nextSegmentReference": null,
+                "uapiSegmentReference": "0rHfQ4H3nDKAVEeAzEAAAA=="
+            }
+        ],
+        "createdAt": "2024-03-07T07:11:28.306+00:00",
+        "bookingPCC": "7RS3",
+        "fareQuotes": [
+            {
+                "index": 1,
+                "tourCode": null,
+                "endorsement": "NON-ENDORSABLE/REFUND MODIFICATION SUBJECT TO PENALTIES",
+                "pricingInfos": [
+                    {
+                        "taxes": "BDT1949",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            },
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "basePrice": "BDT8548",
+                        "taxesInfo": [
+                            {
+                                "type": "BD",
+                                "value": "BDT50"
+                            },
+                            {
+                                "type": "OW",
+                                "value": "BDT1000"
+                            },
+                            {
+                                "type": "P7",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT140"
+                            },
+                            {
+                                "type": "UT",
+                                "value": "BDT400"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT59"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT100"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "ImWHM2kDuDKAyMTMScBAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT10497",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-03-09T23:59:00.000+06:00",
+                        "fareCalculation": "DAC BS CGP 4274VDOM6M BS DAC 4274VDOM6M BDT8548",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "ADT": 1
+                        },
+                        "farePricingMethod": "Guaranteed",
+                        "uapi_pricing_info_ref": "0rHfQ4H3nDKAgEeAzEAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    },
+                    {
+                        "taxes": "BDT1549",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            },
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "basePrice": "BDT6411",
+                        "taxesInfo": [
+                            {
+                                "type": "BD",
+                                "value": "BDT50"
+                            },
+                            {
+                                "type": "OW",
+                                "value": "BDT1000"
+                            },
+                            {
+                                "type": "P7",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT140"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT59"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT100"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "ImWHM2kDuDKAOMTMScBAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT7960",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-03-09T23:59:00.000+06:00",
+                        "fareCalculation": "DAC BS CGP 3206VDOM6M/CH25 BS DAC 3205VDOM6M/CH25 BDT6411",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "CNN": 1
+                        },
+                        "farePricingMethod": "Guaranteed",
+                        "uapi_pricing_info_ref": "0rHfQ4H3nDKAWFeAzEAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    },
+                    {
+                        "taxes": "BDT1749",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            },
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "basePrice": "BDT6411",
+                        "taxesInfo": [
+                            {
+                                "type": "BD",
+                                "value": "BDT50"
+                            },
+                            {
+                                "type": "OW",
+                                "value": "BDT1000"
+                            },
+                            {
+                                "type": "P7",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT140"
+                            },
+                            {
+                                "type": "UT",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT59"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT100"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "ImWHM2kDuDKAbMTMScBAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT8160",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-03-09T23:59:00.000+06:00",
+                        "fareCalculation": "DAC BS CGP 3206VDOM6M/CH25 BS DAC 3205VDOM6M/CH25 BDT6411",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "CNN": 1
+                        },
+                        "farePricingMethod": "Guaranteed",
+                        "uapi_pricing_info_ref": "0rHfQ4H3nDKALGeAzEAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    },
+                    {
+                        "taxes": "BDT491",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 10
+                            },
+                            {
+                                "units": "kilograms",
+                                "amount": 10
+                            }
+                        ],
+                        "basePrice": "BDT855",
+                        "taxesInfo": [
+                            {
+                                "type": "P7",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT140"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT51"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT100"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "ImWHM2kDuDKAoMTMScBAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT1346",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-03-09T23:59:00.000+06:00",
+                        "fareCalculation": "DAC BS CGP 428VDOM6M/IN90 BS DAC 427VDOM6M/IN90 BDT855",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "INF": 1
+                        },
+                        "farePricingMethod": "Guaranteed",
+                        "uapi_pricing_info_ref": "0rHfQ4H3nDKABHeAzEAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    }
+                ],
+                "effectiveDate": "2024-03-07T00:00:00.000+06:00",
+                "platingCarrier": "BS",
+                "uapi_segment_refs": [
+                    "0rHfQ4H3nDKATEeAzEAAAA==",
+                    "0rHfQ4H3nDKAVEeAzEAAAA=="
+                ],
+                "uapi_passenger_refs": [
+                    "ImWHM2kDuDKAyMTMScBAAA==",
+                    "ImWHM2kDuDKAOMTMScBAAA==",
+                    "ImWHM2kDuDKAbMTMScBAAA==",
+                    "ImWHM2kDuDKAoMTMScBAAA=="
+                ]
+            }
+        ],
+        "modifiedAt": "2024-03-07T07:11:28.306+00:00",
+        "passengers": [
+            {
+                "gender": "M",
+                "lastName": "alam",
+                "birthDate": "1994-05-04",
+                "firstName": "sultana",
+                "ageCategory": "ADT",
+                "uapi_passenger_ref": "ImWHM2kDuDKAyMTMScBAAA=="
+            },
+            {
+                "gender": "M",
+                "lastName": "HASAN",
+                "birthDate": "2021-04-08",
+                "firstName": "RAKIBUL",
+                "ageCategory": "C02",
+                "uapi_passenger_ref": "ImWHM2kDuDKAOMTMScBAAA=="
+            },
+            {
+                "gender": "M",
+                "lastName": "HOSSEN",
+                "birthDate": "2014-01-06",
+                "firstName": "MANNA",
+                "ageCategory": "C10",
+                "uapi_passenger_ref": "ImWHM2kDuDKAbMTMScBAAA=="
+            },
+            {
+                "gender": "M",
+                "lastName": "HOSSAIN",
+                "birthDate": "2023-08-17",
+                "firstName": "JAKR",
+                "ageCategory": "INF",
+                "uapi_passenger_ref": "ImWHM2kDuDKAoMTMScBAAA=="
+            }
+        ],
+        "hostCreatedAt": "2024-03-07",
+        "serviceSegments": [],
+        "uapi_ur_locator": "8X7TV2",
+        "airlineLocatorInfo": [
+            {
+                "createDate": "2024-03-07T07:11:00.000+00:00",
+                "locatorCode": "06EBRQ",
+                "supplierCode": "BS"
+            }
+        ],
+        "uapi_reservation_locator": "8X83VG"
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "booking": {
+        "pnr": "6RT61N",
+        "type": "uAPI",
+        "emails": [],
+        "tickets": [],
+        "version": 0,
+        "segments": [
+            {
+                "to": "CGP",
+                "from": "DAC",
+                "group": 0,
+                "index": 1,
+                "plane": [
+                    "773"
+                ],
+                "status": "HK",
+                "airline": "BG",
+                "arrival": "2024-03-20T15:20:00.000+06:00",
+                "details": [
+                    {
+                        "stat": "C",
+                        "origin": "DAC",
+                        "departure": "2024-03-20T14:35:00.000+06:00",
+                        "equipment": "773",
+                        "flightTime": "45",
+                        "travelTime": "45",
+                        "destination": "CGP"
+                    }
+                ],
+                "distance": "139",
+                "duration": [
+                    "45"
+                ],
+                "departure": "2024-03-20T14:35:00.000+06:00",
+                "techStops": [],
+                "bookingClass": "G",
+                "flightNumber": "135",
+                "serviceClass": "Economy",
+                "participantLevel": "Secure Sell",
+                "uapi_segment_ref": "+HMqL4SqWDKAvb+2EAAAAA==",
+                "nextSegmentReference": null,
+                "uapiSegmentReference": "+HMqL4SqWDKAvb+2EAAAAA==",
+                "optionalServicesIndicator": "false"
+            },
+            {
+                "to": "DAC",
+                "from": "CGP",
+                "group": 1,
+                "index": 2,
+                "plane": [
+                    "738"
+                ],
+                "status": "HK",
+                "airline": "BG",
+                "arrival": "2024-03-30T09:50:00.000+06:00",
+                "details": [
+                    {
+                        "stat": "C",
+                        "origin": "CGP",
+                        "departure": "2024-03-30T09:05:00.000+06:00",
+                        "equipment": "738",
+                        "flightTime": "45",
+                        "travelTime": "45",
+                        "destination": "DAC",
+                        "destinationTerminal": "2"
+                    }
+                ],
+                "distance": "139",
+                "duration": [
+                    "45"
+                ],
+                "departure": "2024-03-30T09:05:00.000+06:00",
+                "techStops": [],
+                "bookingClass": "G",
+                "flightNumber": "152",
+                "serviceClass": "Economy",
+                "participantLevel": "Secure Sell",
+                "uapi_segment_ref": "+HMqL4SqWDKAxb+2EAAAAA==",
+                "nextSegmentReference": null,
+                "uapiSegmentReference": "+HMqL4SqWDKAxb+2EAAAAA==",
+                "optionalServicesIndicator": "false"
+            }
+        ],
+        "createdAt": "2024-03-06T09:43:17.201+00:00",
+        "bookingPCC": "7RS3",
+        "fareQuotes": [
+            {
+                "index": 1,
+                "tourCode": null,
+                "endorsement": "REPORTING 2 HRS B4 FLT DEP",
+                "pricingInfos": [
+                    {
+                        "taxes": "BDT1949",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            },
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "basePrice": "BDT5050",
+                        "taxesInfo": [
+                            {
+                                "type": "BD",
+                                "value": "BDT50"
+                            },
+                            {
+                                "type": "OW",
+                                "value": "BDT1000"
+                            },
+                            {
+                                "type": "P7",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT140"
+                            },
+                            {
+                                "type": "UT",
+                                "value": "BDT400"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT59"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT100"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "d/XsL4VqWDKASk31EAAAAA=="
+                            },
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "d/XsL4VqWDKAEk31EAAAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT6999",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-03-07T11:43:00.000+06:00",
+                        "fareCalculation": "DAC BG CGP 2525GDACFR BG DAC 2525GDACFR BDT5050",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "ADT": 2
+                        },
+                        "farePricingMethod": "GuaranteedUsingAirlinePrivateFare",
+                        "uapi_pricing_info_ref": "d/XsL4VqWDKAKD61EAAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    },
+                    {
+                        "taxes": "BDT1549",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            },
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "basePrice": "BDT3788",
+                        "taxesInfo": [
+                            {
+                                "type": "BD",
+                                "value": "BDT50"
+                            },
+                            {
+                                "type": "OW",
+                                "value": "BDT1000"
+                            },
+                            {
+                                "type": "P7",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT140"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT59"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT100"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "d/XsL4VqWDKAMk31EAAAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT5337",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-03-07T11:43:00.000+06:00",
+                        "fareCalculation": "DAC BG CGP 1894GDACFR/CH25 BG DAC 1894GDACFR/CH25 BDT3788",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "CNN": 1
+                        },
+                        "farePricingMethod": "GuaranteedUsingAirlinePrivateFare",
+                        "uapi_pricing_info_ref": "+HMqL4SqWDKAed+2EAAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    }
+                ],
+                "effectiveDate": "2024-03-06T00:00:00.000+06:00",
+                "platingCarrier": "BG",
+                "uapi_segment_refs": [
+                    "+HMqL4SqWDKAvb+2EAAAAA==",
+                    "+HMqL4SqWDKAxb+2EAAAAA=="
+                ],
+                "uapi_passenger_refs": [
+                    "d/XsL4VqWDKASk31EAAAAA==",
+                    "d/XsL4VqWDKAEk31EAAAAA==",
+                    "d/XsL4VqWDKAMk31EAAAAA=="
+                ]
+            }
+        ],
+        "modifiedAt": "2024-03-06T09:43:17.201+00:00",
+        "passengers": [
+            {
+                "gender": "M",
+                "lastName": "Babor",
+                "birthDate": "1996-03-10",
+                "firstName": "NM",
+                "ageCategory": "ADT",
+                "uapi_passenger_ref": "d/XsL4VqWDKASk31EAAAAA=="
+            },
+            {
+                "gender": "M",
+                "lastName": "Khan",
+                "birthDate": "2003-01-07",
+                "firstName": "Asad",
+                "ageCategory": "ADT",
+                "uapi_passenger_ref": "d/XsL4VqWDKAEk31EAAAAA=="
+            },
+            {
+                "gender": "M",
+                "lastName": "Uddin",
+                "birthDate": "2022-01-01",
+                "firstName": "Sihab",
+                "ageCategory": "C02",
+                "uapi_passenger_ref": "d/XsL4VqWDKAMk31EAAAAA=="
+            }
+        ],
+        "hostCreatedAt": "2024-03-06",
+        "serviceSegments": [],
+        "uapi_ur_locator": "1X0W8O",
+        "airlineLocatorInfo": [
+            {
+                "createDate": "2024-03-06T09:43:00.000+00:00",
+                "locatorCode": "NRKEXX",
+                "supplierCode": "BG"
+            }
+        ],
+        "uapi_reservation_locator": "1X0W9I"
+    }
+}

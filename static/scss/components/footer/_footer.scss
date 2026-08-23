@@ -1,0 +1,140 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.footer{
+    background: $gray-300;
+    padding: size(60) size(0) size(0);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    &-content{
+        @include flex-column;
+    }
+    &-logo{
+        padding: size(30) size(0);
+        @include border-single(bottom,solid,1, #E2E8F0);
+        figure{
+            width: size(240);
+            height: size(56);
+            overflow: hidden;
+            @include breakpoint(tab992){
+                width: size(240);
+                height: size(56);
+            }
+            img{
+                @include wh100;
+                object-fit: cover;
+            }
+        }
+    }
+    &-info{
+       @include border-single(bottom,solid,1,$linkborder);
+        .footer-details{
+            @include flex-column;
+            gap:size(30);
+            padding: size(10);
+            &-header{
+                @include flex-column;
+                gap:size(30);
+                .footer-title{
+                    @include font($secondaryFont,14,normal,normal,20);
+                    color:$gray-700;
+                }
+            }
+            &-body{
+                @include flex-column;
+                gap:size(14);
+
+                .address{
+                    @include font($secondaryFont,14,light,normal,26);
+                    color:$gray-600;
+                }
+                .social{
+                    @include list-horizontal;
+                    gap: size(10);
+                    &-link{
+                        background-color: $gray-200;
+                        display: inline-block;
+                        @include square(38);
+                        @include circle;
+                        @include flex-center;
+                        @include transitionsall;
+                        @include border(solid,1,transparent);
+                        @include hover{
+                            @include border(solid,1,$black);
+                        }
+                        svg{
+                            @include square(24);
+                        }
+
+                    }
+                }
+            }
+        }
+        .footer-links{
+            @include breakpoint(tab992){
+                @include border-single(right,solid,1,$linkborder);
+            }
+            height: 100%;
+            .footerlist_1 {
+                padding: size(10);
+                .footerlist {
+                  @include list-vertical;
+                  gap: size(6);
+                  &-item {
+                  }
+                  &-link {
+                    @include font($secondaryFont,14,normal,normal,14);
+                    color: $gray-700;
+                    position: relative;
+                    @include transitiontransform;
+                    &::before {
+                      content: "";
+                      position: absolute;
+                      left: 0;
+                      bottom: size(-2);
+                      @include w100;
+                      height: size(2);
+                      background-color: black;
+                      transform: scaleX(0);
+                      @include transitiontransform;
+                    }
+                    @include hover {
+                      color: black;
+                      &::before {
+                        transform: scaleX(1);
+                      }
+                    }
+                  }
+                }
+              }
+        }
+    }
+    .payment{
+        background-color: $payment-bg;
+    }
+    .left{
+        @include breakpoint(tab992){
+            @include border-single(right,solid,1,#E2E8F0);
+        }
+    }
+    &-copyright{
+        padding: size(10) size(0);
+        @include setBgColor($primary,$white);
+       
+        .copyright-text{
+            @include font($secondaryFont,12,normal,normal,20);
+            color: $white;
+            text-align: center;
+            @include breakpoint(tab992){
+                color: $white;
+
+                
+            }
+        }
+    }
+    .footer-other{
+        @include setBgColor($primary,$white);
+        .copyright-text{
+            color: $white;
+        }
+    }
+}

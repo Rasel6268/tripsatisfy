@@ -1,0 +1,142 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.importantlist {
+    margin-left: size(40);
+     &-item {
+        
+        color: $gray-600;
+                @include font($secondaryFont,14,light,normal,30);
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont,16,normal,normal,30);
+                }
+                @include breakpoint(tab992) {
+                    @include font($secondaryFont,18,normal,normal,30);
+
+                }
+     }
+}
+
+
+.sharemenu {
+    @include list-horizontal; 
+    gap: size(8);
+    margin-bottom: size(20);
+    @include breakpoint(tab992) {
+        margin-bottom: size(30);
+    }
+    &-list {
+        
+    }
+
+    &-link {
+        @include flex-center-column ;
+        .icon {
+            display: inline-block;
+            @include square(40);
+            @include circle;
+            background: rgba(157, 157, 157, 0.04);
+            @include flex-center;
+            @include transitionsall;
+            @include hover {
+                background: #F4F2FF;
+                svg {
+                    path {
+                        fill: $primary2;
+                    }
+                }
+            }
+            
+        }
+        .title {
+            @include font($secondaryFont,12,normal,normal,18);
+            color: $gray-600;
+        }
+    }
+}
+
+.tag-list {
+    margin-top: size(20);
+    @include list-horizontal;
+    gap: size(12);
+    flex-wrap: wrap;
+    &-item {
+        @include setBgColor($white,$gray-700);
+        padding: size(8);
+        @include radius(4);
+        @include flex-center-horiz;
+        gap: size(6);
+         cursor: pointer;
+         @include transitionsall;
+        
+
+        .text {
+            color: $gray-700;
+            @include font($secondaryFont,12,normal,normal,24);
+
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,14,normal,normal,24);
+            }
+        }
+        
+    }
+
+    }
+
+.filterbox {
+    @include list-horizontal;
+    flex-wrap: wrap;
+    gap: size(10);
+    @include breakpoint(tab992) {
+        gap: size(16);
+    }
+
+    &-item {
+        @include border(solid,1,$gray-500);
+        padding: size(10) size(20);
+        @include radius(50);
+        cursor: pointer;
+        @include transitionsall;
+        @include font($secondaryFont,14,normal,normal,22);
+        color: $gray-800;
+        @include breakpoint(tab992) {
+            padding: size(14) size(30);
+            @include font($secondaryFont,16,medium,normal,22);
+        }
+        &:hover {
+            
+            &:not(.active) {
+                background-color: $linkborder;
+            }
+    
+        }
+        &.active {
+            @include setBgColor($gray-700,$white);
+       }
+
+      
+    }
+   
+
+}
+.baggages {
+    @include flex-column;
+    gap: size(10);
+    .baggage {
+        border: 1px solid #E2E8F0;
+        padding: size(14) size(20);
+        @include radius(8);
+        @include flex-center-between;
+        max-width: size(410);
+        @include breakpoint(mobile992) {
+        padding: size(16) size(20);
+
+        }
+        span {
+            min-width: size(80);
+            color: $gray-700;
+            @include font($secondaryFont,14,normal,normal,24);
+            
+        }
+    }
+}

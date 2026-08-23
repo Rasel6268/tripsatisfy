@@ -1,0 +1,100 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.modal {
+  &-content {
+    @include radius(25);
+    border: none;
+    padding: size(5);
+    @include breakpoint(mobile576) {
+      padding: size(10);
+    }
+    @include breakpoint(tab992) {
+      padding: size(20);
+    }
+   
+  }
+  
+  &-header {
+    border-bottom: 0;
+    .header-title{
+        color: $gray-900;
+        @include font($secondaryFont,22,normal,normal,30);
+    }
+    .btn-close {
+      @include square(18);
+      @include flex-center;
+      overflow: hidden;
+      opacity: 1;
+
+      svg {
+        @include wh100;
+        @include transitiontransform;
+
+        path {
+          fill: rgba($gray-600, 0.4);
+          @include transitionsall;
+        }
+      }
+
+      @include hover {
+        svg {
+          @include rotate(90);
+
+          path {
+            fill: $gray-600;
+          }
+        }
+      }
+    }
+  }
+  &.filterModal {
+    
+    .modal-content {
+        @include radius(30);
+        
+    }
+    .modal-body{
+        .filter-content{
+            @include flex-column;
+            padding: size(20);
+            gap:size(20);
+            &-header {
+                // @include border(solid,1,$gray-600);
+                @include border-single(bottom,solid,1,$gray-300);
+                .filter-title{
+                    color: $gray-700;
+                    @include font($secondaryFont,14,normal,normal,14);
+                    padding-bottom: size(10);
+                }
+            }
+            &-body{
+                @include flex-column;
+                gap:size(20);
+                
+                .checkbox-wrapper{
+                  @include flex-column;
+                  gap:size(12);
+                }
+                .see-more{
+                 color: $gray-500;
+                 @include font($secondaryFont,14,normal,normal,20);
+                 padding-left: size(30);
+                 @include transitionsall;
+                 @include hover{
+                  color: $gray-600;
+                 }
+                }
+            }
+            .range-slide{
+                padding-right: size(40);
+            }
+        }
+
+    }
+    .modal-footer{
+      justify-content: space-between;
+    }
+}
+
+}

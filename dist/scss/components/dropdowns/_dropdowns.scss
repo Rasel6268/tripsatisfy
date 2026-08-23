@@ -1,0 +1,294 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+
+.person-dropdown {
+    position: relative;
+    .dropdown-btn {
+        padding: size(0) size(10);
+        @include flex-center-horiz;
+        align-items: center;
+        gap: size(14);
+        .btn-text {
+            color: $gray-600;
+            @include font($secondaryFont,14,medium,normal,14);
+            display: inline-block;
+        }
+    }
+    &-content {
+        background: #FFFFFF;
+        /* Shadow/shadow-sm */
+        position: absolute;
+        z-index: 2;
+        display: none;
+        box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.2), 0px 1px 3px rgba(50, 50, 71, 0.1);
+        border-radius: 0px 0px 8px 8px;
+        width: size(330);
+        left: size(-15);
+        top: 100%;
+        @include breakpoint(mobile768) {
+            left: size(-100);
+        }
+        &.show {
+            display: block;
+        }
+    }
+    .counter-container {
+        padding: size(12);
+    }
+    .single-counter {
+        padding: size(12); 
+        @include flex-column;
+        gap: size(8);
+        .top {
+            @include flex-between;
+            .left {
+                @include flex-column;
+                gap: size(10);
+                .title {
+                    color: $gray-600;
+                    @include font($secondaryFont,16,normal,normal,14);
+                    @include breakpoint(mobile576) {
+                    @include font($secondaryFont,18,normal,normal,14);
+                        
+                    }
+                }
+                .age {
+                    color: $gray-600;
+                    @include font($secondaryFont,12,normal,normal,14);
+                }
+            }
+            .right {
+                @include flex-center-horiz;
+                gap: size(18);
+                button {
+                    @include border(solid,1,$linkborder);
+                    @include radius(4);
+                    @include square(24);
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: $gray-700;
+                    @include font($secondaryFont,18,normal,normal,14);
+                    
+                }
+                .increament {
+                    @include setBgColor($gray-200,$gray-700);
+                }
+                span {
+                    color: $gray-600;
+                    
+                    @include font($secondaryFont,18,normal,normal,18);
+                   
+                   
+                }
+            }
+        }
+
+        .bottom {
+            .child-date {
+                
+            }
+        }
+        
+    }
+    .dateof {
+        color: $gray-600;
+    }
+}
+
+
+
+
+
+.dropdown-item-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    padding: size(24);
+    padding-top: size(10);
+    right: 0;
+    background: $white;
+    @include border(solid,1,$linkborder);
+    z-index: 3;
+    border-bottom-left-radius: size(8);
+    border-bottom-right-radius: size(8);
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    @include breakpoint(tab992) {
+        width: size(380);
+        right: size(12);
+        left: auto;
+        transform: translateX(0);
+    }
+
+    .rooms {
+        @include flex-column;
+        gap: size(8);
+        .room {
+            @include flex-between;
+            @include border(solid,1,$linkborder);
+            padding: size(10) size(22);
+            @include radius(8);
+            .left {
+
+            }
+            .room-number {
+                @include font($secondaryFont,14,semibold,normal,22);
+                color: $gray-600;
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont,16,semibold,normal,22);
+
+                }
+            }
+            p{
+                @include font($secondaryFont,14,normal,normal,22);
+                color: $gray-600;
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont,16,normal,normal,22);
+
+                }
+            }
+            .right {
+                span {
+                    @include font($secondaryFont, 14, normal, normal, 22);
+                    color: $gray-600;
+                    cursor: pointer;
+                    @include breakpoint(mobile576) {
+                        @include font($secondaryFont, 16, normal, normal, 22);
+
+                    }
+            }
+    }
+        }
+    } 
+
+    .booking-room {
+        @include flex-column;
+        gap: size(24);
+        padding-top: size(30);
+        .booking-header {
+            @include font($secondaryFont,14,semibold,normal,22);
+            color: $gray-600;
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,16,semibold,normal,22);
+
+            }
+        }
+        .booking-body {
+            @include border(solid,1,$linkborder);
+            .counter-container {
+                padding: size(12);
+            }
+            .single-counter {
+                padding: size(12); 
+                @include flex-column;
+                gap: size(8);
+                .top {
+                    @include flex-between;
+                    .left {
+                        @include flex-column;
+                        gap: size(10);
+                        .title {
+                            color: $gray-600;
+                            @include font($secondaryFont,16,normal,normal,14);
+                            @include breakpoint(mobile576) {
+                            @include font($secondaryFont,18,normal,normal,14);
+                                
+                            }
+                        }
+                        .age {
+                            color: $gray-600;
+                            @include font($secondaryFont,12,normal,normal,14);
+                        }
+                    }
+                    .right {
+                        @include flex-center-horiz;
+                        gap: size(18);
+                        button {
+                            @include border(solid,1,$linkborder);
+                            @include radius(4);
+                            @include square(24);
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: $gray-700;
+                            @include font($secondaryFont,18,normal,normal,14);
+                            
+                        }
+                        .increament {
+                            @include setBgColor($gray-200,$gray-700);
+                        }
+                        span {
+                            color: $gray-600;
+                            
+                            @include font($secondaryFont,18,normal,normal,18);
+                            
+                            
+                        }
+                    }
+                }
+
+                .bottom {
+                    .child-date {
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+    .another-buttons {
+        margin-top: size(16);
+        @include flex-column;
+        gap: size(8);
+        @include breakpoint(mobile480) {
+            @include flex-center-vert;
+            flex-direction: row;
+        }
+        .another-btn {
+            @include flex;
+            gap: size(8);
+            @include border(solid,1,$linkborder);
+            padding:size(8) size(14);
+            @include radius(8);
+            color: $gray-600;
+            @include font($secondaryFont,16,normal,normal,24);
+            @include w100;
+            @include breakpoint(mobile480) {
+                width: calc(100% - size(95));
+            }
+
+
+            .icon {
+                @include square(24);
+                @include flex-center;
+                background: $gray-200;
+                @include radius(4);
+            }
+        }
+        .done {
+            @include setBgColor($yellow-deep,$gray-800);
+            padding:size(8) size(14);
+            @include radius(8);
+            @include transitionsall;
+            @include font($secondaryFont,16,normal,normal,24);
+            @include hover {
+                background: darken($yellow-deep, 3%);
+            }
+            @include w100;
+            @include breakpoint(mobile480) {
+                width: size(95);
+            }
+        }
+
+    }
+
+&.show {
+    display: block;
+    
+    
+}
+}

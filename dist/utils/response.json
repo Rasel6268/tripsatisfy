@@ -1,0 +1,1019 @@
+[
+    {
+        "totalPrice": "USD43.60",
+        "basePrice": "BDT5940",
+        "taxes": "USD14.60",
+        "platingCarrier": "BG",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T08:15:00.000+06:00",
+                            "arrival": "2022-12-15T09:00:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "611",
+                            "uapi_segment_ref": "nL1OEUBqWDKA9gU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKA9gU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2022-12-15T08:15:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T15:45:00.000+06:00",
+                            "arrival": "2022-12-15T16:30:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "615",
+                            "uapi_segment_ref": "nL1OEUBqWDKA/gU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKA/gU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2022-12-15T15:45:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T15:45:00.000+06:00",
+                            "arrival": "2022-12-15T16:30:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "137",
+                            "uapi_segment_ref": "nL1OEUBqWDKABhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKABhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2022-12-15T15:45:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T19:45:00.000+06:00",
+                            "arrival": "2022-12-15T20:40:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "617",
+                            "uapi_segment_ref": "nL1OEUBqWDKAChU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAChU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "destination": "CGP",
+                                    "departure": "2022-12-15T19:45:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "DH8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "DH8"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T09:40:00.000+06:00",
+                            "arrival": "2022-12-18T10:25:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "612",
+                            "uapi_segment_ref": "nL1OEUBqWDKAEhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAEhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2022-12-18T09:40:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T17:10:00.000+06:00",
+                            "arrival": "2022-12-18T17:55:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "616",
+                            "uapi_segment_ref": "nL1OEUBqWDKAGhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAGhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T17:10:00.000+06:00",
+                                    "flightTime": "45",
+                                    "travelTime": "45",
+                                    "equipment": "738"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "738"
+                            ],
+                            "duration": [
+                                "45"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BG",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T21:05:00.000+06:00",
+                            "arrival": "2022-12-18T22:00:00.000+06:00",
+                            "airline": "BG",
+                            "flightNumber": "618",
+                            "uapi_segment_ref": "nL1OEUBqWDKAIhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAIhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "2",
+                                    "departure": "2022-12-18T21:05:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "DH8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "DH8"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "G",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "GDACFR"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD43.60",
+                "basePrice": "BDT5940",
+                "taxes": "USD14.60",
+                "uapi_fare_reference": "nL1OEUBqWDKAjiU2BAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD43.60",
+                "basePrice": "BDT5940",
+                "equivalentBasePrice": "USD59.00",
+                "taxes": "USD14.60"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1
+        }
+    },
+    {
+        "totalPrice": "USD74.60",
+        "basePrice": "BDT5948",
+        "taxes": "USD14.60",
+        "platingCarrier": "BS",
+        "directions": [
+            [
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T07:45:00.000+06:00",
+                            "arrival": "2022-12-15T08:40:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "103",
+                            "uapi_segment_ref": "nL1OEUBqWDKAKhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAKhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T07:45:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T09:45:00.000+06:00",
+                            "arrival": "2022-12-15T10:40:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "105",
+                            "uapi_segment_ref": "nL1OEUBqWDKAMhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAMhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T09:45:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T12:15:00.000+06:00",
+                            "arrival": "2022-12-15T13:10:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "109",
+                            "uapi_segment_ref": "nL1OEUBqWDKAOhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAOhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T12:15:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T15:00:00.000+06:00",
+                            "arrival": "2022-12-15T15:55:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "111",
+                            "uapi_segment_ref": "nL1OEUBqWDKAQhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAQhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T15:00:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T17:30:00.000+06:00",
+                            "arrival": "2022-12-15T18:25:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "115",
+                            "uapi_segment_ref": "nL1OEUBqWDKAShU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAShU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T17:30:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T18:30:00.000+06:00",
+                            "arrival": "2022-12-15T19:25:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "117",
+                            "uapi_segment_ref": "nL1OEUBqWDKAUhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAUhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T18:30:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "DAC",
+                    "to": "CGP",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "DAC",
+                            "to": "CGP",
+                            "group": 0,
+                            "departure": "2022-12-15T20:00:00.000+06:00",
+                            "arrival": "2022-12-15T20:55:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "119",
+                            "uapi_segment_ref": "nL1OEUBqWDKAWhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAWhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DAC",
+                                    "originTerminal": "D",
+                                    "destination": "CGP",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-15T20:00:00.000+06:00",
+                                    "flightTime": "55",
+                                    "travelTime": "55",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "55"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T09:10:00.000+06:00",
+                            "arrival": "2022-12-18T10:00:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "104",
+                            "uapi_segment_ref": "nL1OEUBqWDKAYhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAYhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T09:10:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T13:40:00.000+06:00",
+                            "arrival": "2022-12-18T14:30:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "110",
+                            "uapi_segment_ref": "nL1OEUBqWDKAahU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAahU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T13:40:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T14:55:00.000+06:00",
+                            "arrival": "2022-12-18T15:45:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "106",
+                            "uapi_segment_ref": "nL1OEUBqWDKAchU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAchU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T14:55:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T16:25:00.000+06:00",
+                            "arrival": "2022-12-18T17:15:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "112",
+                            "uapi_segment_ref": "nL1OEUBqWDKAehU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAehU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T16:25:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T18:55:00.000+06:00",
+                            "arrival": "2022-12-18T19:45:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "116",
+                            "uapi_segment_ref": "nL1OEUBqWDKAghU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAghU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T18:55:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T19:55:00.000+06:00",
+                            "arrival": "2022-12-18T20:45:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "118",
+                            "uapi_segment_ref": "nL1OEUBqWDKAihU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAihU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T19:55:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                },
+                {
+                    "from": "CGP",
+                    "to": "DAC",
+                    "platingCarrier": "BS",
+                    "segments": [
+                        {
+                            "from": "CGP",
+                            "to": "DAC",
+                            "group": 1,
+                            "departure": "2022-12-18T21:25:00.000+06:00",
+                            "arrival": "2022-12-18T22:15:00.000+06:00",
+                            "airline": "BS",
+                            "flightNumber": "120",
+                            "uapi_segment_ref": "nL1OEUBqWDKAkhU2BAAAAA==",
+                            "uapiSegmentReference": "nL1OEUBqWDKAkhU2BAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "CGP",
+                                    "originTerminal": "D",
+                                    "destination": "DAC",
+                                    "destinationTerminal": "D",
+                                    "departure": "2022-12-18T21:25:00.000+06:00",
+                                    "flightTime": "50",
+                                    "travelTime": "50",
+                                    "equipment": "AT7"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "AT7"
+                            ],
+                            "duration": [
+                                "50"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 20
+                                }
+                            ],
+                            "fareBasisCode": "KDOM6M"
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD74.60",
+                "basePrice": "BDT5948",
+                "taxes": "USD14.60",
+                "uapi_fare_reference": "nL1OEUBqWDKAkiU2BAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD74.60",
+                "basePrice": "BDT5948",
+                "equivalentBasePrice": "USD60.00",
+                "taxes": "USD14.60"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1
+        }
+    }
+]

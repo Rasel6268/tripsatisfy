@@ -1,0 +1,149 @@
+@use '../global' as *;
+@use '../partials' as *;
+
+.customer-details {
+    padding-top: size(40);
+    &-content {
+        @include flex-column;
+        gap:size(30);
+        @include breakpoint(tab992) {
+            gap:size(50);
+        }
+    }
+    &-header {
+        @include flex-column;
+        gap: size(10);
+        text-align: center;
+        @include breakpoint(tab992) {
+            text-align: left;
+            gap: size(16);
+        }
+        .customer-details-title {
+            color: $gray-700;
+            @include font($primaryFont,28,normal,normal,32);
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,32,normal,normal,32);
+            }
+        }
+        .customer-details-description {
+            color: $gray-600;
+            @include font($primaryFont,14,normal,normal,20);
+            @include breakpoint(mobile576) {
+                @include font($primaryFont,16,normal,normal,24);
+            }
+            @include breakpoint(mobile768) {
+                @include font($primaryFont,18,normal,normal,30);
+            }
+        }
+    }
+    &-body {
+        padding: size(10) size(0) size(80);
+        .details-container {
+            @include flex-column;
+            gap: size(20);
+            
+        }
+        .radio-box {
+            @include flex-column;
+            gap: size(18);
+            padding-block: size(10);
+            &-header {
+                .radio-box-title {
+                    @include font($secondaryFont,14,normal,normal,14);
+
+                }
+            }
+            &-body {
+                @include flex-column;
+                gap: size(10);
+                @include breakpoint (tab992) {
+                    @include flex-row;
+                }
+            }
+        }
+        .check-box {
+            @include flex-column;
+            gap: size(10);
+            &-header {
+                .check-box-title {
+                    @include font($secondaryFont,18,medium,normal,24);
+                    color: $gray-700;
+                }
+            }
+            &-body {
+               
+            }
+        }
+        .coupon {
+            @include flex-column;
+            gap: size(8);
+            .coupon-title {
+                color: $gray-700;
+                @include font($secondaryFont,20,medium,normal,24);
+            }
+        }
+        .payments {
+            @include flex-column;
+            padding-bottom: size(20);
+            @include border-single(bottom,dashed,2,$gray-400);
+            gap: size(16);
+            .payment-header {
+                @include font($secondaryFont,20,medium,normal,24);
+                color: $gray-700;
+            }
+            .payment-method {
+                @include flex;
+                flex-wrap: wrap;
+                gap: size(16);
+            }
+        }
+        .fare-summery {
+            @include flex-column;
+            padding-top: size(20);
+            gap: size(14);
+            &-header {
+            @include flex-column;
+            gap: size(14);
+            .fare-title {
+                color: $gray-700;
+                @include font($secondaryFont,20,medium,normal,24);
+            }
+            .input-box {
+                @include border(solid,1,$linkborder);   
+                padding: size(12) size(8);
+                @include flex-column;
+          
+                @include transitionsbackground;
+                @include radius(8);
+                @include breakpoint(tab992){
+                  @include radius(0);
+                }
+                &:focus-within {
+                  @include setBgColor(#ededed,$gray-800);
+                }
+                
+                  .input-label{
+                    @include font($secondaryFont,10,normal,normal,10);
+                    color: $gray-600;
+                    
+                  }
+                  .input-field{
+                    color: $gray-700;
+                    @include font($secondaryFont,14,normal,normal,14);
+                    background: transparent;
+                    padding-top: size(8);
+                    @include breakpoint(mobile576){
+                      @include font($secondaryFont,16,normal,normal,16);
+                    }
+                  }
+                  
+                 }
+            }
+            &-body {
+
+            }
+        }
+
+       
+    }
+}

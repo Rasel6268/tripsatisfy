@@ -1,0 +1,72 @@
+@use '../global'as *;
+@use '../partials'as *;
+
+
+.range-slide-wrapper {
+    @include flex-column;
+    gap: size(20);
+
+    .range-value {
+        @include flex-between;
+
+        .min-box {
+            @include flex-column;
+
+            .min-title {
+                color: $gray-600;
+                @include font($secondaryFont, 12, normal, normal, 12);
+            }
+
+            input {
+                max-width: size(100);
+                color: $gray-700;
+                @include font($secondaryFont, 14, normal, normal, 22);
+            }
+        }
+
+        .max-box {
+            @include flex-column;
+            .max-title {
+                color: $gray-600;
+                @include font($secondaryFont, 12, normal, normal, 12);
+            }
+
+            input {
+                max-width:size(70);
+                color: $gray-700;
+                @include font($secondaryFont, 14, normal, normal, 22);
+            }
+
+        }
+    }
+
+    .ui-widget-content {
+        background-color: #CCD6FF;
+        height: size(4);
+    }
+
+    .ui-widget.ui-widget-content {
+        border: none;
+    }
+
+    .ui-slider-horizontal .ui-slider-range {
+        background-color: $primary2;
+        
+    }
+
+
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default {
+        @include circle;
+        background: $primary2;
+        outline: size(3) solid rgba(76, 111, 255, 0.4);
+    }
+
+    .ui-slider .ui-slider-handle {
+        @include square(14);
+        top: size(-6);
+    }
+   
+
+}

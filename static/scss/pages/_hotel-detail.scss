@@ -1,0 +1,491 @@
+@use '../global'as *;
+@use '../partials'as *;
+
+.hoteldetails {
+    padding-top: size(20); 
+    @include breakpoint(tab992) {
+        padding-top: size(40); 
+    }
+    .image-gellery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: size(100);
+        gap: size(10);
+
+        @include breakpoint(tab992) {}
+
+        figure {
+            // @include square(100);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                @include radius(8);
+
+            }
+
+        }
+
+        img {
+            @include w100;
+            @include h100;
+            object-fit: cover;
+            @include radius(8);
+        }
+
+
+    } 
+    .photo-gallery { 
+        
+        .flex-container {
+            @include flex-column;
+            @include breakpoint(tab992) {
+                flex-direction: row;
+                gap: size(16);
+            }
+        }
+        .left-image {
+            width: calc(100% - 116px);
+            @include w100;
+            @include breakpoint(tab992) {
+                width: calc(100% - 116px);
+            }
+            
+                img {
+                    @include wh100;
+                    object-fit: cover;
+                    @include radius(8);
+                   
+                }
+            .swiper-button-prev {
+                display: none;
+            }
+            .swiper-button-next {
+                display: none;
+            }
+        }
+        .right-images {
+          @include flex-row;
+          overflow-x: scroll;
+          gap: size(10);
+          @include breakpoint(tab992) {
+            flex-direction: column;
+            overflow-x: hidden;
+            
+          }
+            figure { 
+                flex-grow: 1;
+                flex-shrink: 0;
+                @include square(100);
+                overflow: hidden;
+                @include radius(8);
+                img {
+                    @include wh100;
+                    object-fit: cover;
+                    @include radius(8);
+                }
+            }
+        }
+    }
+
+
+    .image-grid-col-2 {
+        grid-column: span 4;
+        grid-row: span 2;
+
+        @include breakpoint(tab992) {
+            grid-column: span 3;
+            grid-row: span 4;
+        }
+    }
+
+    .swiper {
+        @include h100;
+    }
+
+    .location-box {
+        @include flex-column;
+        gap: size(10);
+
+        @include breakpoint(tanb992) {
+            gap: size(18);
+        }
+
+        .hotel-name {
+            color: $gray-700;
+            @include font($secondaryFont, 24, normal, normal, 32);
+            @include breakpoint(tab992) {
+            @include font($secondaryFont, 30, normal, normal, 40);
+
+            }
+        }
+        .icon-text {
+            @include flex-center-vert;
+            gap: size(10);
+            color: $gray-600;
+            @include font($secondaryFont, 16, normal, normal, 24);
+            @include breakpoint(tab992) {
+            @include font($secondaryFont, 18, normal, normal, 24);
+
+            }
+            
+        } 
+        .location-name {
+            @include flex-column;
+            gap: size(6);
+            color: $gray-600;
+            @include font($secondaryFont, 16, normal, normal, 24);
+            @include breakpoint(tab992) {
+            @include font($secondaryFont, 18, normal, normal, 24);
+
+            }
+        }
+    }
+
+    .facility {
+        .tags {}
+
+        .tag-list {
+            justify-content: center;
+
+            @include breakpoint(tab992) {
+                justify-content: flex-end;
+            }
+
+        }
+    }
+
+    .hotel-map {
+        height: 100%;
+        img {
+            @include wh100;
+            object-fit: cover;
+        }
+    }
+}
+
+.roomdetails {
+
+    &-content {}
+
+    &-header {}
+
+    &-body {}
+
+    .abouthotel {
+        padding: size(20) size(0);
+
+        @include breakpoint(tab992) {
+            padding: size(30) size(0);
+
+        }
+
+        &-content {
+            @include flex-column;
+            gap: size(30);
+
+            @include breakpoint(tab992) {
+                gap: size(40);
+            }
+        }
+
+        &-header {
+
+            .abouthotel-title {
+                color: $gray-700;
+                @include font($secondaryFont, 20, semibold, normal, 32);
+
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont, 24, semibold, normal, 32);
+
+                }
+            }
+        }
+
+        &-body {
+            .abouthotel-text {
+                color: $gray-600;
+                @include font($secondaryFont, 14, light, normal, 20);
+
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont, 16, normal, normal, 26);
+                }
+            }
+
+            .abouthotel-thumb {
+                @include w100;
+                overflow: hidden;
+                @include radius(16);
+                max-height: size(430);
+
+                img {
+                    @include wh100;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .importantnotes {
+        padding-bottom: size(60);
+
+        &-content {
+            @include flex-column;
+            gap: size(30);
+
+            @include breakpoint (tab992) {
+                gap: size(40);
+            }
+        }
+
+        &-header {
+
+            .importantnotes-title {
+                color: $gray-700;
+                @include font($secondaryFont, 20, semibold, normal, 32);
+
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont, 24, semibold, normal, 32);
+
+                }
+            }
+        }
+
+        &-body {
+            .important-box {
+                @include flex-column;
+                gap: size(24);
+
+                &-header {
+                    @include border-single(bottom, solid, 1, $linkborder);
+
+                    .important-box-title {
+                        color: $gray-700;
+                        @include font($secondaryFont, 16, normal, normal, 60);
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.amenities {
+    padding-top: size(40);
+
+    @include breakpoint(tab992) {
+        padding-top: size(54);
+    }
+
+    &-content {
+        padding: size(32) size(0);
+
+        @include flex-column;
+        gap: size(24);
+
+        @include breakpoint(tab992) {
+            padding: size(48) size(0);
+            gap: size(40);
+        }
+    }
+
+    &-header {
+        .amenities-title {
+            color: $gray-700;
+            @include font($primaryFont, 20, semibold, normal, 26);
+        }
+    }
+
+    &-body {
+        .facility-box-container {
+            @include flex-column;
+            gap: size(20);
+        }
+
+    }
+}
+
+.holidaydetail  {
+    &-content {
+        @include flex-column;
+        gap: size(20);
+        padding: size(50) size(0);
+    }
+
+    &-header {
+        @include radius(8);
+        position: sticky;
+        top: size(70); 
+        z-index: 2;
+        background-color: $white !important;
+        padding: size(10) size(0);
+        @include breakpoint(tab992) {
+        top: size(100); 
+
+        }
+        .accordionlist {
+            @include list-horizontal;
+            flex-wrap: wrap;
+            &-item {
+                &:nth-of-type(1) {
+                   .accordionlist-link {
+                    border-top-left-radius: size(8);
+                    border-bottom-left-radius: size(8);
+                   }
+                }
+
+            }
+            &-link {
+                padding: size(14) size(16);
+                color: $gray-600;
+                @include font($secondaryFont,14,normal,normal,20);
+                &.active {
+                 @include setBgColor($primary,$white);
+                }
+               
+            }
+        }
+    }
+
+
+    &-body {
+       
+    }
+}
+
+.cart-bar {
+    position: fixed;
+    left: 0;
+    @include w100;
+    bottom: 0;
+    background: #010334;
+    padding: size(24) size(0);
+    
+    // max-height: 50%;
+    .rooms-selection-container {
+        @include flex-between; 
+        align-items: flex-end;
+        flex-direction: column;
+        gap: size(20);
+
+        @include breakpoint(mobile576) {
+            flex-direction: row;
+        }
+        
+
+        .rooms {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(size(200), 1fr));
+            gap: size(10);
+            @include w100;
+            overflow-y: scroll;
+            max-height: size(200);
+            &::-webkit-scrollbar {
+                width: 0;  /* Remove scrollbar space */
+                background: transparent;  /* Optional: just make scrollbar invisible */
+            }
+            /* Optional: show position indicator in red */
+            &::-webkit-scrollbar-thumb {
+                background: #FF0000;
+            }
+            .room {
+                padding: size(16);
+                border: 1px solid #4a5568;
+                @include radius(8);
+                position: relative;
+                max-width: size(300); 
+                 @include flex-center;
+                 flex-direction: column;
+                 text-align: center;
+                &.selected {
+                    border-color: $white;
+                    .person-count {
+                        color: $white;
+                    } 
+                    .hotel-name { 
+                        color: $white;
+                    }
+                    .price { 
+                        color: $white;
+                    }
+                    .delete {
+                        display: block;
+                    }
+                }
+                .delete {
+                    position: absolute;
+                    right: size(10);
+                    top: size(10);
+                    display: none;
+                }
+                .person-count {
+                   @include font($secondaryFont, 12, semibold, normal, 24);
+                  
+                    @include breakpoint(mobile576) {
+                   @include font($secondaryFont, 16, semibold, normal, 24);
+
+                    }
+                }
+                .hotel-name {
+                 
+                    @include line-clamp;
+                    @include font($secondaryFont, 12, normal, normal, 24);
+                    @include breakpoint(mobile576) {
+                    @include font($secondaryFont, 16, normal, normal, 24);
+ 
+                     }
+
+                }
+                .price {
+                 
+                    @include font($secondaryFont, 12, normal, normal, 24);
+                    @include breakpoint(mobile576) {
+                        @include font($secondaryFont, 16, normal, normal, 24);
+     
+                         }
+
+                }
+            }
+        }
+
+        .action {
+            @include flex-column;
+            align-items: flex-end;
+            gap: size(10);
+            color: $white;
+            .amount {
+                text-align: right;
+                min-width: size(200);
+                justify-content: end;
+                @include flex;
+                gap: size(10);
+                .price-before-discount {
+                    text-decoration: line-through;
+                    word-break: keep-all;
+                    font-size: size(14);
+                }
+                .main-price {
+                    font-size: size(18);
+                }
+            } 
+            .show-btn {
+                min-width: size(140);
+            }
+        }
+    }
+
+    .collase-btn {
+        position: absolute;
+        left: 50%;
+        bottom: 100%;
+        background: #010334;
+        @include square(50);
+        @include circle;
+        transform: translateX(-50%);
+        @include flex-center;
+       
+    }
+
+}

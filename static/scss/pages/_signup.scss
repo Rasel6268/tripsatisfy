@@ -1,0 +1,119 @@
+@use '../global' as *;
+@use '../partials' as *;
+
+
+
+.login-bg {
+    background: $bodybg;
+  
+    @include breakpoint(tab992){
+        background:url(../../assets/images/header/signupbg.png) ;
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.login-section {
+    padding: 30px 0 60px;
+    .login-box {
+        background: $white;
+        @include radius(16);
+        padding:size(30) size(14);
+        @include breakpoint(mobile768) {
+            padding:size(30) size(24);
+        }
+        &-header {
+
+            @include flex-column;
+            gap: size(10);
+
+            .login-title {
+                color: $gray-700;
+                text-align: center;
+                padding: 0 size(24);
+                @include font($secondary,24,normal,normal,30);
+                @include breakpoint(mobile576) {
+                    @include font($secondary,26,normal,normal,30);
+                }
+                
+                @include breakpoint(tab992) {
+                    @include font($secondary,30,normal,normal,38);
+                }
+            }
+            .social-signup {
+               @include flex-column;
+               gap: size(12);
+               max-width: size(560);
+
+               .social-label {
+                color: $body-text;
+                @include font($secondaryFont,14,medium,normal,14);
+               }
+               .social-buttons {
+                @include flex;
+                gap: size(12);
+               }
+                
+            }
+            .or {
+                @include flex-center-vert; 
+                max-width: size(560);
+                span {
+                    width: size(38);
+                    @include font($secondaryFont,14,medium,normal,14);
+                    color: $body-text;
+                }
+                .line {
+                    height: size(1);
+                   width: calc(100% - size(38));
+                    background: $gray-300;
+
+                }
+                margin: size(20) size(0)
+            }
+            .social-btn {
+                @include border(solid,1,$gray-300);
+                // padding: size(10) size(30);
+                background: $white;
+                flex-basis:50%;
+                padding: size(8) size(8);
+                @include radius(10);
+                @include transitionsall;
+                color: $gray-600;
+                @include font($secondary,16,normal,normal,24);
+                @include flex-center;
+                gap: size(10);
+                @include breakpoint(mobile576) {
+                    @include font($secondary,18,normal,normal,28);
+                }
+                @include hover {
+                    @include setBgColor($gray-100,$gray-700);
+                }
+            }
+        }
+        &-body {
+            .already-text {
+                color: $gray-600;
+                @include font($secondaryFont,14,medium,normal,24);
+                a {
+                    color: $primary;
+                    @include hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .aroplane-thumb {
+
+        @include square(400);
+        overflow: hidden;
+        margin-right: size(-100);
+        img {
+            @include wh100;
+            object-fit: cover;;
+        }
+    }
+}

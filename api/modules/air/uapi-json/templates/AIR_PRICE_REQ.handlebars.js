@@ -1,0 +1,78 @@
+module.exports = `
+<!--Release 8.1-->
+<!--Version Dated as of 15/Apr/2015 11:24:06-->
+<!--Air Pricing For Galileo({{provider}}) with LFS CheckFlightDetails Request-->
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header/>
+    <soap:Body>
+        <air:AirPriceReq
+            AuthorizedBy="user" CheckFlightDetails="true" TargetBranch="{{TargetBranch}}"
+            TraceId="{{requestId}}"
+            FareRuleType="{{#if long}}long{{else}}short{{/if}}"
+            xmlns:air="http://www.travelport.com/schema/air_v47_0"
+            xmlns:com="http://www.travelport.com/schema/common_v47_0">
+            <com:BillingPointOfSaleInfo OriginApplication="UAPI" xmlns:com="http://www.travelport.com/schema/common_v47_0"/>
+            <air:AirItinerary>
+                {{#segments}}
+                <air:AirSegment AvailabilitySource="{{availabilitySource}}"
+                                ArrivalTime="{{arrival}}"
+                                DepartureTime="{{departure}}"
+                                Carrier="{{airline}}"
+                                {{#if bookingClass}} ClassOfService="{{bookingClass}}" {{/if}}
+                                CabinClass="{{serviceClass}}"
+                                Origin="{{from}}"
+                                Destination="{{to}}"
+                                ETicketability="Yes"
+                                Equipment="{{plane}}"
+                                FlightNumber="{{flightNumber}}"
+                                FlightTime="{{flightTime}}"
+                                Distance="{{distance}}"
+                                LinkAvailability="true"
+                                PolledAvailabilityOption="Polled avail exists"
+                                ProviderCode="{{../provider}}"
+                                Key="{{@index}}"
+                                Group="{{group}}"
+                                ParticipantLevel="{{participantLevel}}" 
+                                OptionalServicesIndicator="{{optionalServicesIndicator}}" 
+                                AvailabilityDisplayType="{{availabilityDisplayType}}">
+                    {{#if transfer}}
+                    <air:Connection/>
+                    {{/if}}
+                </air:AirSegment>
+                {{/segments}}
+            </air:AirItinerary>
+            {{#if platingCarrier}}
+              <air:AirPricingModifiers PlatingCarrier="{{platingCarrier}}"/>
+            {{/if}}
+            {{#if business}}
+            <air:AirPricingModifiers FaresIndicator="AllFares" InventoryRequestType="DirectAccess">
+                <air:PermittedCabins>
+                    <com:CabinClass Type="Business" xmlns:com="http://www.travelport.com/schema/common_v47_0" />
+                </air:PermittedCabins>
+            </air:AirPricingModifiers>
+            {{else}}
+            <air:AirPricingModifiers FaresIndicator="AllFares" InventoryRequestType="DirectAccess"/>
+            {{/if}}
+            {{#passengers}}
+            <com:SearchPassenger BookingTravelerRef="P_{{@index}}" Code="{{ageCategory}}"  {{#if infant}}Age="1"{{else if child}}Age="{{Age}}"{{/if}} xmlns:com="http://www.travelport.com/schema/common_v47_0"/>
+            {{/passengers}}
+            <air:AirPricingCommand>
+                {{#segments}}
+                <air:AirSegmentPricingModifiers AirSegmentRef="{{@index}}">
+                {{#if bookingClass}}
+                    <air:PermittedBookingCodes>
+                            <air:BookingCode Code="{{bookingClass}}" />
+                    </air:PermittedBookingCodes>
+                {{/if}}
+                </air:AirSegmentPricingModifiers>
+                {{/segments}}
+            </air:AirPricingCommand>
+            {{#if emulatePcc}}
+            <air:PCC>
+                <com:OverridePCC ProviderCode="{{provider}}" PseudoCityCode="{{emulatePcc}}"/>
+            </air:PCC>
+            {{/if}}
+        </air:AirPriceReq>
+    </soap:Body>
+</soap:Envelope>
+`;

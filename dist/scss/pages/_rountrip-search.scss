@@ -1,0 +1,670 @@
+
+@use '../global' as *;
+@use '../partials' as *;
+
+.avilableflights {
+    
+   &-content {
+    @include flex-column;
+    gap: size(20);
+    @include breakpoint(mobile576) {
+        gap: size(40);
+    }
+    padding-bottom: size(40);
+    @include breakpoint(tab992) {
+        flex-direction: row;
+        gap: 0;
+     
+    }
+
+   }
+   &-sidebar {
+    // display: none;
+    @include breakpoint(tab992) {
+        display: block;
+        width: size(200);
+        padding-top: size(50);
+        padding-right: size(16);
+    }
+    @include breakpoint(desktop1200) {
+        width: size(300);
+    }
+
+    .sidebar-content {
+        
+    }
+    .soldout-time {
+        background: $white;
+        @include radius(16);
+        padding: size(14);
+        @include flex-column;
+        gap: size(0);
+        @include breakpoint(tab992) {
+            gap: size(4);
+        }
+        .title {
+            color: $gray-700;
+            @include font($secondaryFont,14,normal,normal,26);
+            @include breakpoint(tab992) {
+            @include font($secondaryFont,16,normal,normal,26);
+
+            }
+        } 
+        .icon {
+            padding-right: size(6);
+        }
+        .time {
+            color: $gray-700;
+            @include font($secondaryFont,22,normal,normal,31);
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,24,normal,normal,31);
+    
+                }
+        }
+    }
+    .sort-filter-header {
+        @include flex-center-between;       
+        padding: size(10) size(0) size(6);
+        .filter-btn {
+            color: $gray-700;
+        @include font($secondaryFont,14,normal,normal,31);
+        }
+        .clear{
+            cursor: pointer;
+            color: $gray-700;
+        }
+    }
+    .filter-box {
+        background-color: $white;
+        @include radius(16);
+        padding: size(14);
+        .singlebox {
+            @include flex-column;
+            gap: size(12);
+            padding: size(10) size(0);
+            
+            &-header {
+                padding-bottom: size(10);
+                @include border-single(bottom,solid,1,$gray-400);
+                h4 {
+                    color: $gray-700;
+                    @include font($secondaryFont,16,normal,normal,26);
+                }
+            }
+            &-body {
+                .departurelist {
+                    @include list-vertical;
+                    gap: size(8);
+                   
+                }
+
+                .checkbox-wrapper {
+                    @include flex-column;
+                    gap: size(18);
+
+
+                    .see-more {
+                        padding-left: size(30);
+                        color: $gray-500;
+                        @include transitionsall;
+                        @include font($secondaryFont,14,normal,normal,24);
+                        @include hover {
+                            color: $gray-700;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+   }
+   &-list {
+    @include w100;
+    @include flex-column;
+    gap: size(16);
+    @include breakpoint(tab992) {
+        gap: size(24);
+        padding-top: size(50);
+        padding-left: size(24);
+        width: calc(100% - size(200));
+        @include border-single(left,solid,1,$gray-400);
+    }
+    @include breakpoint(desktop1200) {
+        width: calc(100% - size(300));
+        
+    }
+
+    .flight-counter {
+        @include flex-center-between;
+        .avilable-text {
+            color: $gray-700;
+            @include font($secondaryFont,12,normal,normal,18);
+            @include breakpoint(mobile375) {
+                @include font($secondaryFont,14,normal,normal,18);
+            }
+            @include breakpoint(mobile576) { 
+                @include font($secondaryFont,16,normal,normal,18);
+            }
+            @include breakpoint(mobile768) { 
+                @include font($secondaryFont,18,normal,normal,18);
+            }
+            @include breakpoint(tab992) { 
+                @include font($secondaryFont,20,normal,normal,18);
+            }
+        }
+        .looking-for {
+            color: $gray-600;
+            @include font($secondaryFont,10,normal,normal,18);
+            @include breakpoint(mobile375) {
+                @include font($secondaryFont,12,normal,normal,18);
+            }
+            @include breakpoint(mobile768) { 
+                @include font($secondaryFont,14,normal,normal,18);
+            }
+        }
+    }
+    .tripflights {
+        @include flex-column;
+        gap: size(16);
+    }
+
+    .FlightDealFilter {
+        @include flex;
+      
+        button {
+            flex-basis: 33.33%;
+        }
+    }
+   }
+}
+
+
+.flight-card {
+    background-color: $white;
+    // padding: size(14);
+    @include radius(16);
+    padding-left: size(14);
+
+    .airline-namepic {
+        @include flex-center-vert;
+        gap: size(24);
+
+        .flight-thumb {
+            @include square(80);
+           
+            overflow: hidden;
+            @include radius(10);
+            img {
+                @include wh100;
+                object-fit: cover;
+            }
+        }
+
+        .name-box {
+            @include flex-column;
+            gap: size(4);
+            .name {
+                color: $gray-700;
+                @include font($secondaryFont,14,normal,normal,20);
+                
+             
+
+            }
+            .pnr {
+                color: $gray-600;
+                @include font($secondaryFont,14,normal,normal,20);
+                @include breakpoint(tab992) {
+                    @include font($secondaryFont,12,normal,normal,20);
+                    }
+                    @include breakpoint(desktop1200) {  
+                    @include font($secondaryFont,14,normal,normal,20);
+                        
+                    }
+
+            }
+        }
+    }
+    .flight-duration {
+        // max-width: size(444);
+        @include flex-column;
+   
+        .top-row,
+        .middle-row,
+        .bottom-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left {
+                // background: thistle;
+                width: size(60);
+                @include breakpoint(tab992) {
+                    width: size(50);
+    
+                    }
+                    @include breakpoint(desktop1200) {
+                        width: size(60);
+    
+                    }
+              
+
+               
+            }
+            .location {
+                color:$gray-600;
+                @include font($secondaryFont,14,normal,normal,14);
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont,16,normal,normal,14);
+                }
+
+            }
+            .time {
+                color:$gray-600;
+                @include font($secondaryFont,14,medium,normal,14);
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont,16,normal,normal,14);
+                }
+                @include breakpoint(tab992) {
+                @include font($secondaryFont,16,medium,normal,16);
+
+                } 
+                @include breakpoint(desktop1200) {
+                    @include font($secondaryFont,18,medium,normal,18);
+                }
+            }
+    
+            .middle {
+            
+                flex:1;
+                text-align: center;
+            }
+            .right {
+                // background-color: teal;
+                width: size(100);
+                @include breakpoint(tab992) {
+                width: size(60);
+
+                }
+                @include breakpoint(desktop1200) {
+                    width: size(100);
+
+                }
+            }
+
+            .line {
+            
+                width: calc(100% - 30px);
+                margin: auto;
+                height: 25px;
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                height: 100%;
+                
+            }
+            .line svg {
+                width: 100%;
+                height: 100%;
+                max-height: size(30);
+            }
+            .locationone {
+                position: absolute;
+                top: -14px;
+                left: 30%;
+                color: $gray-600;
+                @include font($secondaryFont,12,normal,normal,12);
+            }
+            .locationone2 {
+                position: absolute;
+                top: -14px;
+                right: 30%;
+                color: $gray-600;
+                @include font($secondaryFont,12,normal,normal,12);
+            }
+            .stops {
+                color: $gray-600;
+                @include font($secondaryFont,12,normal,normal,12);
+            }
+        }
+        .middle-row {
+            padding-top: size(12);
+        }
+
+        
+    } 
+    .buy-info {
+            @include flex-column;
+            text-align: center;
+            @include flex-column;
+            justify-content: space-between;
+            gap: size(20);
+            @include h100;
+            @include border-single(top,dashed,2,$gray-400);
+            @include breakpoint(tab992) {
+                @include border-single(left,dashed,2,$gray-400);
+                border-top: 0;
+            }
+            padding-top: size(30);
+            padding-right: size(24);
+           
+            @include breakpoint(tab992) {
+                text-align: right;
+                padding-top: 20;
+            }
+            .top {
+                @include flex-column;
+                gap: size(14);
+                align-items: flex-center;
+
+                @include breakpoint(tab992) {
+                    align-items: flex-end;
+                }
+                .refand {
+                    color: $gray-600;
+                    @include font($secondaryFont,14,normal,normal,20);
+                }
+                .price {
+                    @include flex-center;
+    
+                }
+                .old {
+                    text-decoration: line-through;
+                    color: $gray-600;
+                    @include font($secondaryFont,14,normal,normal,20);
+                    margin-right: size(6);
+                }
+                .new{
+                    color: $gray-700;
+                    @include font($secondaryFont,20,normal,normal,34);
+                    text-decoration: none;
+                    @include breakpoint(mobile576) {
+                        @include font($secondaryFont,24,normal,normal,40);
+                    }
+                    @include breakpoint(tab992) {
+                        @include font($secondaryFont,22,normal,normal,40);
+                    }
+                    @include breakpoint(desktop1200) {
+                        @include font($secondaryFont,28,normal,normal,40);
+                    }
+                }
+            }
+            .bottom {
+                .flight-detail {
+                    span {
+                        color: $gray-600;
+                        @include font($secondaryFont,14,medium,normal,14);
+                        @include transitionscolor;
+                        @include hover {
+                        color: $gray-700;
+
+                        }
+                    } 
+                }
+            }
+        
+    }
+
+
+    // collapsed part
+
+    .collapsed-detail {
+       
+       
+      
+        .collapsed-inner {
+            background: $gray-100;
+           padding: size(24);
+            margin: size(12);
+            margin-top: size(24);
+            margin-bottom: size(24);
+            @include radius(16);
+            margin-left: size(12);
+            margin-right: size(24);
+            
+            .custom-border {
+               @include border-single(right,solid,1,$linkborder);
+            }
+     
+            .left-text ,
+            .right-text{
+
+                @include font($secondaryFont,12,normal,normal,20);
+                color: $gray-700;
+                @include flex-column;
+            }
+            .change-text {
+                background: $white;
+                @include w100;
+                padding: size(12) size(10);
+                @include radius(8);
+                @include font($secondaryFont,12,normal,normal,20);
+                color: $gray-600;
+                margin-bottom: size(20);
+                span {
+                    color: $gray-700;
+                    @include font($secondaryFont,14,normal,normal,20);
+                    padding-left: size(4);
+                    
+                   
+                }
+                
+
+            }
+
+            .refand-wrapper {
+                @include flex-column;
+                gap: size(16);
+                .refand-box {
+                    @include flex-column;
+                    gap: size(10);
+                    &-header {
+                        @include border-single(bottom,solid,1,$linkborder);
+                        h4 {
+                            @include font($secondaryFont,14,normal,normal,30);
+                            color: $gray-700;
+                        }
+                    }
+
+                    &-body {
+                        p {
+                            @include font($secondaryFont,14,normal,normal,20);
+                            color: $gray-600;
+                        }
+                    }
+                }
+                .airline-fee {
+                    @include font($secondaryFont,14,normal,normal,20);
+                    color: $gray-600;
+                }
+            }
+            
+        }
+    }
+}
+.airline-namepic {
+    @include flex-center-vert;
+    gap: size(24);
+
+    .flight-thumb {
+        @include square(80);
+       
+        overflow: hidden;
+        @include radius(10);
+        img {
+            @include wh100;
+            object-fit: cover;
+        }
+    }
+
+    .name-box {
+        @include flex-column;
+        gap: size(4);
+        .name {
+            color: $gray-700;
+            @include font($secondaryFont,14,normal,normal,20);
+            
+         
+
+        }
+        .pnr {
+            color: $gray-600;
+            @include font($secondaryFont,14,normal,normal,20);
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,12,normal,normal,20);
+                }
+                @include breakpoint(desktop1200) {  
+                @include font($secondaryFont,14,normal,normal,20);
+                    
+                }
+
+        }
+    }
+}
+
+.flight-duration {
+
+    &.duration-for-info {
+        padding-left: size(20);
+    .arrow-container {
+        margin-top: size(2);
+    }
+    .location {
+        font-size: 12px !important;
+    }
+    .time {
+        font-size: 12px !important;
+    }
+    }
+    // max-width: size(444);
+    @include flex-column;
+
+    .top-row,
+    .middle-row,
+    .bottom-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left {
+            // background: thistle;
+            width: size(60);
+            @include breakpoint(tab992) {
+                width: size(50);
+
+                }
+                @include breakpoint(desktop1200) {
+                    width: size(60);
+
+                }
+          
+
+           
+        }
+        .location {
+            color:$gray-600;
+            @include font($secondaryFont,14,normal,normal,14);
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,16,normal,normal,14);
+            }
+
+        }
+        .time {
+            color:$gray-600;
+            @include font($secondaryFont,12,medium,normal,14);
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,14,normal,normal,14);
+            }
+            @include breakpoint(tab992) {
+            @include font($secondaryFont,16,medium,normal,16);
+
+            } 
+            @include breakpoint(desktop1200) {
+                @include font($secondaryFont,18,medium,normal,18);
+            }
+        }
+
+        .middle {
+        
+            flex:1;
+            text-align: center; 
+        }
+        .right {
+            // background-color: teal;
+            width: size(100);
+            @include breakpoint(tab992) {
+            width: size(60);
+
+            }
+            @include breakpoint(desktop1200) {
+                width: size(100);
+
+            }
+        }
+
+        .line {
+        
+            width: calc(100% - 30px);
+            margin: auto;
+            height: 25px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            
+        }
+        .line svg {
+            width: 100%;
+            height: 100%;
+            max-height: size(30);
+        }
+        .locationone {
+            position: absolute;
+            top: -14px;
+            left: 30%;
+            color: $gray-600;
+            @include font($secondaryFont,12,normal,normal,12);
+        }
+        .locationone2 {
+            position: absolute;
+            top: -14px;
+            right: 30%;
+            color: $gray-600;
+            @include font($secondaryFont,12,normal,normal,12);
+        }
+        .stops {
+            color: $gray-600;
+            @include font($secondaryFont,12,normal,normal,12);
+        }
+    }
+    .middle-row {
+       
+    }
+
+    
+} 
+.offcanvas-bottom {
+    height: calc(100% - 70px) !important;
+    // height: 50% !important;
+}
+.filtermobile {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    
+}
+.filtermobile button {
+    background: #6367d2;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.filtermobile button:hover {
+    background: #6367d2;
+}
+.filtermobile button:focus {
+    background: #6367d2;
+}

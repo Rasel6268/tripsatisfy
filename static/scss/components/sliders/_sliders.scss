@@ -1,0 +1,67 @@
+@use '../../global/' as *;
+@use '../../partials/' as *;
+
+
+.top-prev,
+.top-next{
+    background-color: $white;
+   @include square(30);
+   @include circle;
+    transform: translateY(-100%);
+    svg{
+        width: size(15);
+    }
+    @include breakpoint(tab992){
+         @include square(50);
+        svg{
+            width: size(20);
+        }
+    } 
+    &::after {
+        display: none;
+    }
+}
+.top-prev {
+    @include breakpoint(tab992) {
+        left: size(-25);
+
+    }
+}
+
+.top-next {
+    @include breakpoint(tab992) {
+        right: size(-25);
+
+    }
+}
+.buttom-prev,
+.buttom-next{
+    @include border(solid,1,$gray-500);
+    background: $white;
+    @include square(20);
+    @include circle;
+    top: 50%;
+    svg{
+        width: size(10);
+    }
+
+    &::after {
+        display: none;
+    }
+
+}
+
+.buttom-prev{
+    left: 0;
+    @include breakpoint(tab992) {
+        left: size(8);
+
+    }
+}
+.buttom-next{
+    right: 0;
+    @include breakpoint(tab992) {
+        right: size(8);
+
+    }
+}

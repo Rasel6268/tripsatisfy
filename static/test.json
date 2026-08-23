@@ -1,0 +1,242 @@
+{
+    "ticket": [
+        {
+            "pnr": "61NFC9",
+            "noAdc": false,
+            "taxes": "BDT975",
+            "tickets": [
+                {
+                    "coupons": [
+                        {
+                            "to": "CXB",
+                            "key": "QEhxZ0TqWDKAC+JcCAAAAA==",
+                            "from": "DAC",
+                            "status": "O",
+                            "airline": "BG",
+                            "stopover": true,
+                            "departure": "2024-01-30T14:20:00.000+06:00",
+                            "bookingClass": "G",
+                            "couponNumber": "1",
+                            "flightNumber": "437",
+                            "ticketNumber": "9973107032955",
+                            "fareBasisCode": "GZACFO"
+                        }
+                    ],
+                    "ticketNumber": "9973107032955"
+                }
+            ],
+            "issuedAt": "2024-01-18T00:00:00.000+06:00",
+            "basePrice": "BDT6775",
+            "taxesInfo": [
+                {
+                    "type": "BD",
+                    "value": "BDT25"
+                },
+                {
+                    "type": "OW",
+                    "value": "BDT500"
+                },
+                {
+                    "type": "P7",
+                    "value": "BDT100"
+                },
+                {
+                    "type": "P8",
+                    "value": "BDT70"
+                },
+                {
+                    "type": "UT",
+                    "value": "BDT200"
+                },
+                {
+                    "type": "E5",
+                    "value": "BDT30"
+                },
+                {
+                    "type": "YQ",
+                    "value": "BDT50"
+                }
+            ],
+            "commission": {
+                "type": "Z",
+                "value": 7
+            },
+            "iataNumber": "42337256",
+            "passengers": [
+                {
+                    "lastName": "Babor",
+                    "firstName": "NMMr"
+                }
+            ],
+            "totalPrice": "BDT7750",
+            "firstOrigin": "DAC",
+            "ticketNumber": "9973107032955",
+            "ticketingPcc": "7RS3",
+            "formOfPayment": [
+                "CASH"
+            ],
+            "platingCarrier": "BG",
+            "fareCalculation": "DAC BG CXB 6775 BDT6775",
+            "farePricingType": "StoredFare",
+            "uapi_ur_locator": "1UOQ2Y",
+            "farePricingMethod": "GuaranteedUsingAirlinePrivateFare",
+            "priceInfoAvailable": true,
+            "isConjunctionTicket": false,
+            "uapi_reservation_locator": "1UOQ31",
+            "priceInfoDetailsAvailable": true
+        }
+    ],
+    "booking": {
+        "pnr": "61NFC9",
+        "type": "uAPI",
+        "emails": [],
+        "tickets": [],
+        "version": 0,
+        "messages": [
+            {
+                "_": "SSR application failed: CHECK FORMAT",
+                "Code": "1",
+                "Type": "Warning",
+                "ProviderCode": "1G"
+            }
+        ],
+        "segments": [
+            {
+                "to": "CXB",
+                "from": "DAC",
+                "group": 0,
+                "index": 1,
+                "plane": [
+                    "DH8"
+                ],
+                "status": "HK",
+                "airline": "BG",
+                "arrival": "2024-01-30T15:15:00.000+06:00",
+                "details": [
+                    {
+                        "stat": "A",
+                        "origin": "DAC",
+                        "departure": "2024-01-30T14:20:00.000+06:00",
+                        "equipment": "DH8",
+                        "flightTime": "75",
+                        "travelTime": "55",
+                        "destination": "CXB",
+                        "originTerminal": "D"
+                    }
+                ],
+                "distance": "190",
+                "duration": [
+                    "75"
+                ],
+                "departure": "2024-01-30T14:20:00.000+06:00",
+                "techStops": [],
+                "bookingClass": "G",
+                "flightNumber": "437",
+                "serviceClass": "Economy",
+                "participantLevel": "Secure Sell",
+                "uapi_segment_ref": "QEhxZ0TqWDKAUJ8YCAAAAA==",
+                "nextSegmentReference": null,
+                "uapiSegmentReference": "QEhxZ0TqWDKAUJ8YCAAAAA==",
+                "optionalServicesIndicator": "false"
+            }
+        ],
+        "createdAt": "2024-01-18T12:46:01.197+00:00",
+        "bookingPCC": "7RS3",
+        "fareQuotes": [
+            {
+                "index": 1,
+                "tourCode": null,
+                "endorsement": "REPORTING 2 HRS B4 FLT DEP",
+                "pricingInfos": [
+                    {
+                        "taxes": "BDT975",
+                        "baggage": [
+                            {
+                                "units": "kilograms",
+                                "amount": 20
+                            }
+                        ],
+                        "basePrice": "BDT6775",
+                        "taxesInfo": [
+                            {
+                                "type": "BD",
+                                "value": "BDT25"
+                            },
+                            {
+                                "type": "OW",
+                                "value": "BDT500"
+                            },
+                            {
+                                "type": "P7",
+                                "value": "BDT100"
+                            },
+                            {
+                                "type": "P8",
+                                "value": "BDT70"
+                            },
+                            {
+                                "type": "UT",
+                                "value": "BDT200"
+                            },
+                            {
+                                "type": "E5",
+                                "value": "BDT30"
+                            },
+                            {
+                                "type": "YQ",
+                                "value": "BDT50"
+                            }
+                        ],
+                        "passengers": [
+                            {
+                                "isTicketed": false,
+                                "uapi_passenger_ref": "QEhxZ0TqWDKABK8YCAAAAA=="
+                            }
+                        ],
+                        "totalPrice": "BDT7750",
+                        "firstOrigin": "DAC",
+                        "timeToReprice": "2024-01-19T14:45:00.000+06:00",
+                        "fareCalculation": "DAC BG CXB 6775GZACFO BDT6775",
+                        "farePricingType": "StoredFare",
+                        "passengersCount": {
+                            "ADT": 1
+                        },
+                        "farePricingMethod": "GuaranteedUsingAirlinePrivateFare",
+                        "uapi_pricing_info_ref": "QEhxZ0TqWDKAYJ8YCAAAAA==",
+                        "uapi_pricing_info_group": "1"
+                    }
+                ],
+                "effectiveDate": "2024-01-18T00:00:00.000+06:00",
+                "platingCarrier": "BG",
+                "uapi_segment_refs": [
+                    "QEhxZ0TqWDKAUJ8YCAAAAA=="
+                ],
+                "uapi_passenger_refs": [
+                    "QEhxZ0TqWDKABK8YCAAAAA=="
+                ]
+            }
+        ],
+        "modifiedAt": "2024-01-18T12:46:01.197+00:00",
+        "passengers": [
+            {
+                "gender": "M",
+                "lastName": "Babor",
+                "birthDate": "2023-09-07",
+                "firstName": "NM",
+                "ageCategory": "ADT",
+                "uapi_passenger_ref": "QEhxZ0TqWDKABK8YCAAAAA=="
+            }
+        ],
+        "hostCreatedAt": "2024-01-18",
+        "serviceSegments": [],
+        "uapi_ur_locator": "1UOQ2Y",
+        "airlineLocatorInfo": [
+            {
+                "createDate": "2024-01-18T12:45:00.000+00:00",
+                "locatorCode": "MHVLAS",
+                "supplierCode": "BG"
+            }
+        ],
+        "uapi_reservation_locator": "1UOQ31"
+    }
+}

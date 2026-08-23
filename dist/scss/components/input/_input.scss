@@ -1,0 +1,276 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+
+// .inputbox {
+//   @include flex-column;
+//   gap: size(10);
+  
+//   .inputinfo {
+//     background: $white;
+//     @include flex-center-vert;
+//     // @include border(solid, 1, $inputBorder);
+//     padding: size(8) size(16);
+//     position: relative;
+//     @include radius(10);
+//     @include transitionsall;
+
+//     .icon {
+//       @include square(18);
+//       @include flex-center;
+//       overflow: hidden;
+
+//       svg {
+//         @include wh100;
+//       }
+//     }
+
+//     .inputfield {
+//       // @include setBgColor(transparent, $textPrimary);
+//       @include font($primaryFont, 14, normal, normal, 20);
+//       width: calc(100% - 1.125rem);
+//       padding: size(3) size(14);
+
+//       &::placeholder {
+//         color: $textPlaceholder;
+//       }
+
+//       &.loginpass {
+//         padding-right: size(24);
+//       }
+//     }
+
+//     .btn-toggle {
+//       @include transparent-button;
+//       @include absolute(top 50% right 1rem);
+//       @include translateY(-50%);
+//       padding: 0;
+
+//       .toggleicon {
+//         @include square(20);
+//         @include flex-center;
+//         overflow: hidden;
+
+//         svg {
+//           @include wh100;
+
+//           path {
+//             @include transitionsall;
+//           }
+//         }
+
+//         &.showicon {
+//           display: block;
+//         }
+
+//         &.hideicon {
+//           display: none;
+//         }
+//       }
+
+//       &.active {
+//         .toggleicon {
+//           &.hideicon {
+//             display: block;
+//           }
+
+//           &.showicon {
+//             display: none;
+//           }
+//         }
+//       }
+
+//       @include hover {
+//         .toggleicon {
+//           svg {
+//             path {
+//               fill: $primary;
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     &:focus-within {
+//       border-color: $primary;
+//       // border-color: darken($checkborder, 50%);
+//     }
+//   }
+
+//   .error-message {
+//     gap: size(8);
+//     display: none;
+
+//     .icon {
+//       @include square(12);
+//       @include flex-center;
+//       overflow: hidden;
+
+//       svg {
+//         @include wh100;
+//       }
+//     }
+
+//     .errortext {
+//       color: $danger;
+//       @include font($primaryFont, 12, medium, normal, 18);
+//       letter-spacing: size(0.04);
+//       margin-top: size(-3);
+//     }
+//   }
+
+//   .passinfo {
+//     .infotext {
+//       color: $textPlaceholder;
+//       @include font($primaryFont, 12, medium, normal, 18);
+//       letter-spacing: size(0.04);
+//       text-align: left;
+//     }
+//   }
+
+//   .optional {
+//     @include flex-end;
+
+//     &-text {
+//       color: $textPlaceholder;
+//       @include font($primaryFont, 12, medium, normal, 18);
+//       letter-spacing: size(0.04);
+//       text-align: right;
+//     }
+//   }
+
+//   .verify {
+//     @include w100;
+//     @include flex-center;
+//     gap: size(24);
+//     overflow: hidden;
+
+//     &-field {
+//       // @include setBgColor($white, $textPrimary);
+//       @include font($primaryFont, 18, semibold, normal, 24);
+//       @include square(58);
+//       @include flex-center;
+//       // @include border(solid, 1, $inputBorder);
+//       @include radius(10);
+//       text-align: center;
+//       overflow: hidden;
+//       @include transitionsall;
+
+//       &::placeholder {
+//         color: $textPlaceholder;
+//       }
+
+//       &:focus {
+//         border-color: $primary;
+//       }
+
+//       &:visited,
+//       &:active,
+//       &:target {
+//         // border-color: $checkborder;
+//       }
+
+//       &.active {
+//         // border-color: $checkborder;
+//       }
+//     }
+//   }
+
+//   &.error {
+//     .inputinfo {
+//       border-color: $danger;
+//     }
+
+//     .error-message {
+//       @include flex-center-vert;
+//       align-items: flex-start;
+//     }
+//   }
+// }
+
+
+
+
+
+.input-box2 {
+    @include flex-column;
+    gap: size(10);
+    .input-label {
+        color: $body-text;
+        @include font($secondaryFont,14,medium,normal,14);
+      
+    }
+    .input-field {
+        @include font($secondaryFont, 14, normal, normal, 20);
+        @include border(solid,1,$gray-400);
+        padding: size(10);
+        @include radius(6);
+        @include transitionsall;
+        max-width: size(560);
+        color: $textPlaceholder;
+        @include font($secondaryFont,14,medium,normal,14);
+        &::placeholder {
+            color: $placeholdertext;
+            @include font($secondaryFont,14,medium,normal,14);
+
+        }
+        &:focus {
+            border-color: $primary;
+        }
+    }
+    .upload-box {
+     @include border(solid,1,$gray-300);
+     padding: size(6) size(10);
+     @include radius(6); 
+     @include flex-center-between;
+     max-width: size(560);
+     .file-placeholder {
+        color: $textPlaceholder;
+        @include font($secondaryFont,14,medium,normal,14);
+     }
+    }
+    .trip-radios {
+        @include border(solid,1,$gray-400);
+        padding: size(8) size(10);
+        @include radius(6);
+        @include flex;
+        gap: size(20);
+        max-width: size(560);
+
+    }
+
+    .forget-link {
+        color: $gray-400;
+        @include font($secondaryFont,14,medium,normal,14);
+        @include transitionscolor;
+        @include hover {
+            color: $gray-600;
+            text-decoration: underline;
+        }
+    }
+}
+
+.coupon-box {
+    height: size(46);
+    @include flex-between;
+    overflow: hidden;
+    padding: size(6);
+    @include border(solid,1,$gray-300);
+    @include radius(6);
+    @include transitionsall;
+    &:focus-within {
+        @include border(solid,1,$primary);
+    }
+    .inputfield {
+        @include h100;
+        width: calc(100% - 80px);
+        padding-inline: size(10);
+        &::placeholder {
+            @include font($secondaryFont,14,normal,normal,14);
+            color: $textPlaceholder;
+        }
+      
+
+    }
+
+}

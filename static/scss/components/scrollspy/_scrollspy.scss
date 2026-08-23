@@ -1,0 +1,38 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+.roomdetails {
+    .nav {
+        background: $white;
+        margin-bottom: 10px;
+        @include radius (8);
+       &.nav-pills {
+       @include radius(8);
+        .nav-item {
+            
+        }
+
+        .nav-link {
+            border-radius: 0;
+            @include font($secondaryFont,12,normal,normal,14);
+            padding: size(14) size(8);
+            &.first {
+                border-top-left-radius: size(8);
+                border-bottom-left-radius: size(8);
+            }
+            @include breakpoint(mobile414) {
+                @include font($secondaryFont,14,normal,normal,14);
+                padding: size(14) size(10);
+            }
+            @include breakpoint(mobile768) {
+                @include font($secondaryFont,14,normal,normal,14);
+                padding: size(20) size(20);
+            }
+            &.active {
+                
+            }
+        }
+
+       }
+    }
+}

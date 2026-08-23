@@ -1,0 +1,330 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+}
+.hero{
+    margin-top: size(-100);
+    padding-top: size(100);
+    background-image: url(https://raw.githubusercontent.com/qtecsolution/gosahabi-html/master/assets/images/header/banner.jpg);
+    clip-path: ellipse(75% 52% at 50% 38%);
+   
+    /*url('https://raw.githubusercontent.com/qtecsolution/gosahabi-html/master/assets/images/header/banner-curved.png'); */
+
+    background-repeat: no-repeat;
+    // background-position: center;
+    background-size: cover;
+    min-height: size(360);
+    // @include flex-center;
+    // padding-left: size(8);
+    // padding-right: size(8);
+    // background-size: cover;
+    // clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+    // @include single-radius(bottom, left, 180);
+    // @include single-radius(bottom, right, 180);
+    @include breakpoint(mobile576) {
+        min-height: size(450);
+    }
+    @include breakpoint(mobile768) {
+        min-height: size(500);
+    }
+    @include breakpoint(tab992) {
+    //   @include single-radius(bottom, left, 120);
+      min-height: size(600);
+      padding-left: size(0);
+      padding-right: size(0);
+    }
+  
+    @include breakpoint(desktop1200) {
+      min-height: size(730);
+    }
+    .container{
+        @include flex-column;
+            gap:size(10);
+        @include breakpoint(tab992){
+            gap:size(30);
+        }
+    }
+   
+    &-content{
+       
+        @include breakpoint(mobile576) {
+            margin-top: size(30);
+        }
+        .inner{
+            @include flex-column;
+            text-align: center;
+            gap:size(10);
+            align-items: center;
+            @include breakpoint(tab992){
+                gap:size(20);
+            }
+            &-title{
+                color: $white;
+                background: linear-gradient(270deg, rgba(217, 217, 217, 0) 17.79%, #FDA805 85.06%);
+                @include font($secondaryFont,30,bold,normal,44);
+                width: max-content;
+                @include breakpoint(mobile576){
+                    @include font($secondaryFont,36,bold,normal,42);
+                }
+                @include breakpoint(tab992){
+                    @include font($secondaryFont,48,bold,normal,66);
+                }
+                @include breakpoint(desktop1024) {
+                    @include font($secondaryFont,60,bold,normal,76);
+                }
+                @include breakpoint(desktop1169) {
+                    @include font($secondaryFont,72,bold,normal,80);
+                }
+            }
+            &-text{
+                @include font($secondaryFont,16,normal,normal,25);
+                color: $white;
+                display: none;
+                @include breakpoint(mobile768){
+                    display: block;
+                }
+            }
+        }
+    }
+   
+
+
+
+
+
+}
+
+.search{
+    padding-block: size(20);
+    padding-top: size(0);
+    padding-bottom: size(0);
+    @include breakpoint(mobile576) {
+        padding-top: size(40);
+        padding-bottom: size(20);
+    }
+    .bg{
+        background: rgba(216, 224, 232, 0.3);
+        padding: 20px;
+        border-radius: 12px;
+    }
+}
+
+
+.header-others {
+  
+    .middlemenu {
+          .desktoplist{ 
+           
+            &-item {
+            }
+            &-link {
+                padding: size(31) size(20);
+                display: none;
+                @include font($secondaryFont,14,medium,normal,14);
+                @include breakpoint(mobile576){
+                    @include font($secondaryFont,16,medium,normal,16);
+                } 
+                @include breakpoint(tab992) {
+                    padding: 100px;
+                    display: none;
+
+                }
+                @include hover {
+                    color: $white;
+                    &::before {
+                      }
+                }
+
+                &:not(.active) {
+                    
+                    &:hover {
+                        @include setBgColor ($linkborder,$gray-700);
+                        
+                    }
+                }
+                &.active {
+                    @include setBgColor ($primary,$white);
+                   
+                    &:hover {
+                    color: $white !important;
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header {
+    &-nav {
+        height: size(70);
+        @include flex-between;
+       
+        @include breakpoint(tab992){
+            height: size(100);
+            
+        }
+        .logo {
+            width: size(120);
+            height: size(29);
+            @include flex-center;
+            overflow: hidden;
+            @include breakpoint(mobile375) {
+                width: size(130);
+                height: size(32);
+            }
+            @include breakpoint(mobile414) {
+                width: size(140);
+                height: size(35);
+            }
+            @include breakpoint(mobile480) {
+                width: size(150);
+                height: size(38);
+            }
+            @include breakpoint(mobile576) {
+                width: size(180);
+                height: size(45);
+            }
+            @include breakpoint(mobile768) {
+                width: size(200);
+                height: size(50);
+            }
+      
+            @include breakpoint(tab992) {
+              width: size(240);
+              height: size(57);
+            }
+      
+            img {
+              @include wh100;
+            }
+          }
+         
+        .deskmenu , 
+        .middlemenu{
+            
+            .desktoplist{
+                @include list-horizontal;
+                // gap: size(10);
+      
+                &-item{
+                    // background-color: red;
+                    position: relative;
+                    @include hover{
+                        .header-dropwown{
+                            display:block;
+                        }
+                    }
+                    
+                }
+                &-link{
+                   
+                    color: $gray-600;
+                    padding: size(10) size(6);
+                    display: inline-block;
+                    @include font($secondaryFont,14,normal,normal,14);
+                    @include transitionsall;
+                    position: relative;
+                  
+                    @include breakpoint(mobile576){
+                        @include font($secondaryFont,16,normal,normal,16);
+                    }
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: size(-2);
+                        @include w100;
+                        height: size(2);
+                        background-color: $gray-700;
+                        transform: scaleX(0);
+                        @include transitiontransform;
+                      }
+                    @include breakpoint(tab992){
+                        padding: size(26) size(20);
+                    }
+                    @include hover{
+                       color: $gray-700;
+                        &::before {
+                            // transform: scaleX(1);
+                          }
+                    }
+                }
+                &-icon{
+                    background-color: #fff;
+                    display: inline-block;
+                    @include square(40);
+                    @include circle;
+                    @include flex-center;
+                    @include breakpoint(tab992){
+                        @include square(60);
+                    }
+
+                }
+            }
+        } 
+        
+        .header-dropwown{
+            position: absolute;
+            // background-color: lightcoral;
+            top: 100%;
+            right: 0;
+            padding: size(20) size(0);
+            display: none;
+            @extend %animation;
+            @extend %slideUpIn;
+            z-index: 100;
+            .dropdownlist{
+                @include list-vertical;
+                gap:size(5);
+                width: size(206);
+                @include radius(8);
+                background-color: #fff;
+                padding: size(10);
+                &-item{
+                    
+                }
+                &-link{
+                    color: $body-text;
+                    display: block;
+                    @include radius(8);
+                    padding: size(8);
+                    @include flex;
+                    align-items: center;
+                    gap:size(6);
+                    @include transitionsbackground;
+                    position: relative;
+                    @include font($secondaryFont,12,medium,normal,12);
+                    @include hover{
+                        @include setBgColor($gray-200,$body-text);
+                        .number{
+                            @include setBgColor($white,$theme-dark);
+                        }
+                    }
+                    .icon{
+                        overflow: hidden;
+                    }
+                    .number{
+                        position: absolute;
+                        right: size(4);
+                        display: inline-block;
+                        width: size(28);
+                        height: size(18);
+                        @include flex-center;
+                        @include radius(100);
+                        @include setBgColor($gray-200,$theme-dark);
+                        @include font($primaryFont,12,bold,normal,15);
+                    }
+                }
+            }
+            
+        }
+
+    }
+}

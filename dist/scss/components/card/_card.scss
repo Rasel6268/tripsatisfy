@@ -1,0 +1,1704 @@
+@use '../../global'as *;
+@use '../../partials'as *;
+
+
+
+
+.cardspecial {
+    @include flex-column;
+    gap: size(20);
+
+    &-header {
+        @include w100;
+        height: size(240);
+        @include radius(24);
+        @include flex-center;
+        overflow: hidden;
+        position: relative;
+        @include breakpoint(mobile576) {
+            height: size(260);
+        }
+
+        @include breakpoint(mobile768) {
+            height: size(280);
+        }
+
+        @include breakpoint(tab992) {
+            height: size(260);
+        }
+
+        @include breakpoint(desktop1024) {
+            height: size(400);
+        }
+
+        @include hover {
+            .overlay {
+                opacity: 1;
+            }
+
+            img {
+                @include transform(scale(1.1));
+            }
+        }
+
+        img {
+            @include wh100;
+            object-fit: cover;
+            aspect-ratio: 2/1;
+            position: relative;
+            @include transitiontransform;
+
+            @include hover {
+                @include scale(1.1);
+            }
+        }
+
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba($black, .4);
+            opacity: 0;
+            transition: opacity .5s ease-in-out;
+            z-index: 1;
+        }
+    }
+
+    &-body {
+        @include flex-column;
+        gap: size(8);
+
+        .special-title {
+            @include font($secondaryFont, 12, semibold, normal, 18);
+            color: $gray-700;
+
+            @include breakpoint(mobile414) {
+                @include font($secondaryFont, 14, semibold, normal, 20);
+            }
+
+            @include breakpoint(mobile576) {}
+        }
+
+        .special-info {
+            @include flex;
+            gap: size(20);
+            @include font($secondaryFont, 14, normal, normal, 22);
+            color: $gray-600;
+
+            img {
+                display: inline-block;
+            }
+
+        }
+
+        .special-price {
+            h3 {
+                @include font($secondaryFont, 16, semibold, normal, 18);
+                color: $gray-700;
+
+                @include breakpoint(mobile414) {
+                    @include font($secondaryFont, 14, semibold, normal, 20);
+                }
+
+                @include breakpoint(mobile576) {
+                    @include font($secondaryFont, 20, semibold, normal, 25);
+                }
+                span{
+                    color:$gray-500;
+                    @include font($secondaryFont, 12, normal, normal, 18);
+                }
+            }
+        }
+    }
+}
+
+
+// card popular big
+.cardpopular-big {
+    min-height: size(300);
+    @include flex-center;
+
+    .card-wrapper {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+        .image-wrapper {
+            @include wh100;
+            height: size(400);
+            @include radius(12);
+            overflow: hidden;
+            @include hover{
+                .hover-box{
+                    opacity: 1;
+                    transition: all .7s;
+                }
+                img{
+                    @include scale(1.1);
+                }
+            }
+
+            img {
+                @include wh100;
+                object-fit: cover;
+                @include transitionsall;
+
+                @include hover {
+                    @include scale(1.1);
+                }
+            }
+            .hover-box{
+                position: absolute;
+                inset: 0;
+                background-color: rgba($black, .4);
+                opacity: 0;
+                // transition: all .7s;
+                transition: opacity .5s ease-in-out;
+                @include radius(10);
+                
+
+             
+            }
+        }
+
+        .card-content {
+            position: absolute;
+            bottom: size(30);
+            left: size(30);
+            right: size(30);
+            background: rgba(255, 255, 255, 0.6);
+            @include radius(14);
+            padding: size(18) size(10);
+            @include flex-between;
+            // align-items: center;
+            // flex-direction: column ;
+            flex-direction: row;
+            align-items: flex-end;
+
+            .left {
+                @include flex-column;
+
+                .package {
+                    color: $gray-600;
+                    @include font($secondaryFont, 14, semibold, normal, 20);
+                }
+
+                .location {
+                    color: $gray-800;
+                    @include font($secondaryFont, 16, semibold, normal, 20);
+
+                }
+            }
+
+            .right {
+                color: $gray-700;
+                @include font($secondaryFont, 14, normal, normal, 16);
+                @include flex-column;
+                gap: size(6);
+                align-items: flex-start;
+
+                @include breakpoint(tab992) {
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                .price {
+                    @include font($secondaryFont, 14, semibold, normal, 20);
+                   
+                }
+            }
+
+        }
+    }
+}
+
+// card popular small
+.cardpopular {
+    @include flex-column;
+    gap: size(8);
+    height: 100%;
+
+    &-header {
+        @include flex-center;
+        overflow: hidden;
+        height: size(300);
+        @include radius(12);
+        position: relative;
+        @include hover{
+            .hover-box{
+                opacity: 1;
+                transition: all .7s;
+            }
+            img{
+                @include scale(1.1);
+            }
+        }
+
+        img {
+            @include wh100;
+            object-fit: cover;
+            @include transitionsall;
+
+            @include hover {
+                @include scale(1.1);
+            }
+
+        }
+        .hover-box{
+            position: absolute;
+            inset: 0;
+            background-color: rgba($black, .4);
+            opacity: 0;
+            transition: all .7s;
+        }
+        
+    }
+
+    &-body {
+        .pacakges {
+            color: $gray-600;
+            @include font($secondaryFont, 12, medium, normal, 18);
+
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont, 14, medium, normal, 20);
+            }
+        }
+
+        .location {
+            color: $gray-800;
+            @include font($secondaryFont, 18, medium, normal, 26);
+        }
+
+        .start {
+            color: $gray-700;
+            @include font($secondaryFont, 14, semibold, normal, 20);
+            span {
+                @include font($secondaryFont, 14, normal, normal, 16);
+            }
+        }
+
+    }
+}
+
+// single link
+.single-flight {
+    @include border(solid, 1, $linkborder);
+    @include radius(8);
+    @include flex-between;
+    gap: size(12);
+    padding: size(10) size(10);
+    @include transitionsbackground;
+
+    .left-icon {}
+
+    .middle-content {
+        @include flex-column;
+        flex: 1;
+        overflow: hidden;
+
+        .name {
+            @include font($secondaryFont, 14, normal, normal, 20);
+            color: $gray-700;
+        }
+
+        .price {
+            color: $gray-700;
+            @include font($secondaryFont, 14, normal, normal, 20);
+            b {
+                color:$gray-800;
+            }
+        }
+    }
+
+    .right-icon {}
+
+    @include hover {
+        background: #fff;
+    }
+}
+
+.card-airline-logo {
+    @include flex-center;
+
+    .airline-logo-wrapper {
+        width: size(200);
+        height: size(130);
+        overflow: hidden;
+
+        img {
+            @include wh100;
+            // filter: grayscale(0);
+            @include transitionsall;
+
+            @include hover {
+                // filter: grayscale(100%);
+                @include scale(.9);
+            }
+        }
+    }
+
+}
+
+.card-airline-title {
+    @include font($secondaryFont, 14, normal, normal, 14);
+    color: $gray-800;
+    padding-left: size(24);
+    padding-bottom: size(20);
+}
+
+
+
+//   availabel card
+.card-available {
+    @include flex-column;
+    gap: size(16);
+    cursor: pointer;
+
+    &-header {
+        @include w100;
+        height: size(240);
+        @include flex-center;
+        overflow: hidden;
+        @include radius(16);
+        position: relative;
+
+        @include breakpoint(mobile576) {
+            height: size(260);
+        }
+
+        @include breakpoint(mobile768) {
+            height: size(280);
+        }
+
+        @include breakpoint(desktop1200) {
+            height: size(300);
+        }
+
+        img {
+            @include wh100;
+            object-fit: cover;
+            @include transitiontransform;
+
+            @include hover {
+                transform: scale(1.1);
+            }
+        }
+        .tagline {
+            position: absolute;
+            top: size(14);
+            left: size(14);
+            @include setBgColor($yellow-light,$offBtnText);
+            padding: size(6) size(10);
+            @include flex-center-horiz;
+            gap: size(10);
+            @include radius(8);
+            @include font($secondaryFont,16,normal,normal,26);
+            .text{
+                margin-top: size(2);
+            }
+        }
+    }
+
+    &-body {
+        @include flex-column;
+        gap: size(4);
+
+        .hotel-name {
+            @include font($secondaryFont, 16, normal, normal, 24);
+            color: $gray-700;
+        }
+
+        .hotel-location {
+            @include font($secondaryFont, 12, normal, normal, 18);
+            color: $gray-600;
+
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont, 14, normal, normal, 20);
+            }
+        }
+
+        .price-start {
+            @include flex-between;
+            padding: size(10) size(0);
+
+            .start {
+                @include font($secondaryFont, 12, normal, normal, 18);
+                color: $gray-600;
+
+                b {
+                    text-decoration: line-through;
+                }
+            }
+
+            .off {
+                @include setBgColor($yellow-light, $yellow-deep);
+                display: inline-block;
+                padding: size(4) size(0);
+                text-align: center;
+                width: size(92);
+
+                @include font($secondaryFont, 14, normal, normal, 20);
+            }
+        }
+
+        .price {
+            // @include font($secondaryFont,28,normal,normal,38);
+            @include font($secondaryFont, 20, normal, normal, 36);
+            color: $gray-700;
+
+            span {
+                // @include font($secondaryFont,16,normal,normal,25);
+                @include font($secondaryFont, 12, normal, normal, 18);
+            }
+
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont, 24, normal, normal, 30);
+
+                span {
+                    @include font($secondaryFont, 14, normal, normal, 20);
+                }
+            }
+
+            @include breakpoint(mobile768) {
+                @include font($secondaryFont, 26, normal, normal, 32);
+
+                span {
+                    @include font($secondaryFont, 14, normal, normal, 20);
+                }
+            }
+
+            @include breakpoint(desktop1200) {
+                // @include font($secondaryFont,28,normal,normal,36);
+                // span{
+                //     @include font($secondaryFont,14,normal,normal,20);
+                // }
+            }
+        }
+
+        .includes {
+            @include font($secondaryFont, 12, normal, normal, 18);
+            color: $gray-600;
+
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont, 14, normal, normal, 22);
+
+            }
+        }
+    }
+    @include hover {
+        
+    }
+} 
+
+// card hotel-detail
+.card-hotel {
+    background: $white;
+    @include radius(10);
+    margin-bottom: size(20);
+    @include transitionsall;
+  
+    &-image {
+        overflow: hidden;
+        height: size(316);
+        @include w100;
+        @include radius(10);
+        @include breakpoint(tab992) {
+            @include square(318);
+        }
+        img {
+            @include wh100;
+            object-fit: cover;
+        }
+    }
+    &-left-content {
+        @include flex-column;
+        gap: size(24);
+        height: 100%;
+        @include border-single(right,dashed,1,$gray-400);
+        
+        padding: size(24);
+        @include breakpoint (tab992) {
+            @include flex-row;
+            justify-content: space-between;
+        }
+
+        .nametag {
+            @include flex-column;
+            justify-content: space-between;
+            gap: size(10);
+            @include breakpoint (tab992) {
+                @include flex-column;
+                justify-content: space-between;
+            } 
+            &-innner{
+                @include flex-column;
+                gap: size(24);
+               
+            }
+            .name {
+                @include font($secondaryFont,18,medium,normal,26);
+                color: $gray-700;
+                @include breakpoint(tab992) {
+                    @include font($secondaryFont,20,medium,normal,26);
+                }
+            } 
+            .text {
+                color: $gray-700;
+                @include font($secondaryFont,14,medium,normal,20);
+            }
+           
+            .more-link {
+                color: $gray-700;
+                @include font($secondaryFont,14,medium,normal,20);
+                @include transitionsall;
+                @include hover {
+                    transform: translateX(10px);
+                }
+            }
+            .tags {
+               .tag-list {
+                margin-top: size(20);
+                @include list-horizontal;
+                gap: size(12);
+                flex-wrap: wrap;
+                &-item {
+                    @include setBgColor($tagBg,$gray-700);
+                    padding: size(8);
+                    @include radius(4);
+                    @include flex-center-horiz;
+                    gap: size(6);
+                     cursor: pointer;
+                     @include transitionsall;
+                    
+                    
+                }
+    
+                }
+    
+            }
+        }
+
+    } 
+    &-right-content {
+        padding: size(24);
+        @include flex-column;
+        align-items: flex-start;
+        gap: size(10);
+        @include breakpoint(tab992) {
+            align-items: flex-end;
+           
+        }
+       
+        .person,
+        .meal,
+        .refand {
+            color: $gray-600;
+            @include font($secondaryFont,14,medium,normal,14);
+        }
+        .price {
+            color: $gray-700;
+            text-align: left;
+            @include flex-column;
+            gap: size(6);
+            @include breakpoint(tab992){
+                text-align: right;
+                flex-direction: row;
+            }
+            .old {
+                @include font($secondaryFont,16,medium,normal,24);
+                text-align: left;
+                @include breakpoint(tab992){
+                    text-align: right;
+                }
+            }
+            .new {
+                @include font($secondaryFont,20,medium,normal,26);
+            }
+        }
+        .show-btn {
+            @include w100; 
+            @include breakpoint(mobile768){
+                width: auto;
+            }
+        }
+    }
+@include hover {
+    
+ 
+}
+    
+} 
+
+ .facility-box {
+    @include flex-column;
+    gap: size(20);
+    max-width: size(560);
+
+ 
+    &-header {
+        h5 {
+            color: $gray-700;
+            @include font($secondaryFont,14,normal,normal,24);
+            @include breakpoint(mobile576) {
+                @include font($secondaryFont,16,normal,normal,24);
+            }
+        }
+    }
+    &-body {
+        .tag-list {
+            margin-top: size(20);
+            @include list-horizontal;
+            gap: size(12);
+            flex-wrap: wrap;
+            &-item {
+                @include setBgColor($white,$gray-700);
+                padding: size(8);
+                @include radius(4);
+                @include flex-center-horiz;
+                gap: size(6);
+                 cursor: pointer;
+                 @include transitionsall;
+               
+
+                .text {
+                    color: $gray-700;
+                    @include font($secondaryFont,12,normal,normal,24);
+
+                    @include breakpoint(mobile576) {
+                        @include font($secondaryFont,14,normal,normal,24);
+                    }
+                }
+                
+            }
+
+            }
+    }
+}
+
+.guestinfo-card {
+    background: $white;
+   
+    @include flex-column;
+    gap: size(20);
+    padding: size(30);
+    @include radius(16);
+    &-header {
+        @include border-single(bottom,solid,2,$gray-300);
+        padding-bottom: size(10);
+        .guestinfo-card-title {
+           
+            padding-block: size(10);
+            color: $gray-700;
+            @include font($secondaryFont,18,medium,normal,24);
+
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,20,medium,normal,24);
+            }
+        }
+        .guestinfo-card-text {
+            color: $gray-600;
+            @include font($secondaryFont,14,normal,normal,24);
+            
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,16,normal,normal,26);
+            }
+        }
+    }
+    &-body {
+        @include flex-column;
+        gap: size(20);
+    }
+    .select-wrapper {
+        @include border(solid,1,$gray-400);
+        @include radius(6);
+        max-width: size(560);
+        .select {
+            padding:size(5) size(3);
+            @include radius(6);
+           }
+    }
+} 
+
+.card-paynow {
+    @include flex-column;
+    gap: size(8);
+
+    .payment-header {
+        @include flex-between;
+        padding: size(16) size(20);
+        @include border(solid,1,$gray-300);
+        @include radius(8);
+        @include font($secondaryFont, 14, normal, normal, 20);
+        color: $gray-700;
+    }
+    .paument-item {
+        @include flex-between;
+        padding: size(16) size(20);
+        @include border(solid,1,$gray-300);
+        align-items: flex-end;
+        @include radius(8);
+        @include font($secondaryFont, 12, normal, normal, 20);
+        color: $gray-700;
+        @include breakpoint(mobile414) {
+            @include font($secondaryFont, 14, normal, normal, 20);
+        }
+        
+        .product-name {
+            width: 40%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+
+        &:nth-last-child(-n+4) {
+			border: none;
+            background:$totalCardBg;
+		}
+        
+    }
+}
+.single-flight-card {
+    background: $white;
+    @include radius(16);
+    padding: size(24) size(0);
+    .col-lg-9 {
+        @include breakpoint(tab992) {
+            @include border-single(right,dashed,1,$gray-400);
+        }
+    }
+    .flight-row {
+       
+        @include flex-column;
+        gap: size(20);
+       
+
+        @include breakpoint(mobile480) {
+            flex-direction: row;
+        }
+        @include breakpoint(tab992) {
+            flex-direction: column;
+        }
+        @include breakpoint(desktop1400) {
+            flex-direction: row;
+        }
+        &-left {
+            @include flex;
+            gap: size(24);
+            .airline-thumb {
+                @include square(80);
+                overflow: hidden;
+                @include radius(8);
+                img {
+                    @include wh100;
+                    object-fit: cover;
+                    @include radius(8);
+                }
+            }
+            .airline-name {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: size(10);
+
+                .name {
+                    color: $gray-700;
+                    @include font($secondaryFont,14,normal,normal,20);
+                }
+                .code {
+                    color: $gray-600;
+                    @include font($secondaryFont,14,normal,normal,20);
+                }
+            }
+        }
+        &-right {
+            @include flex-between;
+            gap: size(10);
+            .going-from {
+                @include flex-column;
+            
+                color: $gray-700;
+                @include font($secondaryFont,18,normal,normal,26);
+                width: size(60);
+
+            }
+            .middle {
+                @include flex-column;
+                align-items: center;
+                gap: size(0);
+                width: calc(100% - 140px);
+                color: $gray-600;
+                @include font($secondaryFont,12,normal,normal,18);
+                .line-thumb {
+                    @include w100;
+                    svg {
+                        @include w100;
+                    }
+                }
+            }
+            .going-to {
+                @include flex-column;
+              
+                color: $gray-700;
+                @include font($secondaryFont,18,normal,normal,26);
+                width: size(60);
+            }   
+            .time {
+                color: $gray-700;
+                @include font($secondaryFont,18,bold,normal,26);
+            }
+        }
+    } 
+
+    .buy-info {
+        @include flex-column;
+        text-align: center;
+        @include flex-column;
+        justify-content: space-between;
+        gap: size(20);
+        @include h100;
+        @include breakpoint(tab992) {
+            text-align: right;
+        }
+        .top {
+            @include flex-column;
+            gap: size(14);
+            align-items: flex-center;
+            @include breakpoint(tab992) {
+                align-items: flex-end;
+            }
+            .refand {
+                color: $gray-600;
+                @include font($secondaryFont,14,normal,normal,20);
+            }
+            .price {
+                @include flex-center;
+
+            }
+            .old {
+                text-decoration: line-through;
+                color: $gray-600;
+                @include font($secondaryFont,14,normal,normal,20);
+                margin-right: size(6);
+            }
+            .new{
+                color: $gray-700;
+                @include font($secondaryFont,28,normal,normal,40);
+                text-decoration: none;
+            }
+        }
+        .bottom {
+
+        }
+    }
+
+    .output {
+        @include border-single(top,solid,1,$gray-300);
+        margin: size(24);
+        background: $gray-100;
+        @include radius(10);
+        padding: size(10);
+    }
+}
+
+.blogpost {
+    height: 100%;
+    @include flex-column;
+    border-radius: size(16);
+    overflow: hidden;
+    @include transitionsall;
+    &-thumb {
+        
+        position: relative;
+        height: size(200);
+        @include breakpoint(tab992) {
+            height: size(166);
+        }
+            .blog-category {
+                position: absolute;
+                right: size(22);
+                top: size(24);
+                @include setBgColor($white,$gray-600);
+                padding: size(6) size(8);
+                @include radius(8);
+                @include font($secondaryFont,14,normal,normal,16);
+
+            }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+    }
+    &-text {
+        @include setBgColor($white,$gray-600);
+        padding: size(0) size(12);
+        border-bottom-left-radius: size(16);
+        border-bottom-right-radius: size(16);
+        height: size(70);
+        
+        
+
+        .blog-title {
+            @include font($secondaryFont,16,normal,normal,26);
+            letter-spacing: -0.005em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-top: size(10);
+            
+           
+            
+        }
+
+    }
+
+    &.large-post {
+        height: 100%;
+        .blogpost-thumb {
+            position: relative;
+            .blog-category {
+                position: absolute;
+                right: size(24);
+                top: size(24);
+                @include setBgColor($white,$gray-600);
+                padding: size(10) size(12);
+                @include radius(8);
+                
+
+            }
+            @include breakpoint(tab992) {
+                height: size(415);
+                @include w100;
+            }
+        }
+
+        img {
+            @include wh100;
+            object-fit: cover;
+        }
+        // gap: size(10);
+        .blogpost-text {
+           
+           
+        }
+    }
+
+    @include hover {
+        transform: scale(1.03);
+        
+    }
+}
+
+
+.roomdetails-header {
+    position: sticky;
+    top: size(70);
+    left: 0;
+    @include w100;
+    @include breakpoint(tab992) {
+        top: size(100);
+    }
+}
+
+.single-visa {
+    background: $white;
+    
+    @include radius(16);
+
+    .custom-border {
+        @include breakpoint(tab992) {
+            @include border-single(left,dashed,2,$gray-400);
+        }
+    }
+
+    .left-content {
+        padding: size(20) size(20);
+        max-width: size(500);
+        @include flex-column;
+        @include h100;
+        gap: size(10);
+        justify-content: space-between;
+        @include breakpoint(tab992) {
+            padding: size(20) size(32);
+        }
+        
+        .visa-title {
+            color: $gray-700;
+            @include font($secondaryFont,22,medium,normal,28);
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,24,medium,normal,32);
+            }
+        }
+        .desc {
+            @include flex-between;
+            .validity {
+                color: $gray-600;
+                @include font($secondaryFont,14,light,normal,22);
+
+
+            }
+            .max-stay {
+                color: $gray-600;
+                @include font($secondaryFont,14,light,normal,22);
+            }
+        }
+    }
+    .right-content {
+        @include flex-column;
+        align-items: center;
+        justify-content: space-between;
+        padding: size(20) size(20) size(20) size(0);
+        gap: size(12);
+        @include h100;
+        @include breakpoint(mobile768) {
+            align-items: flex-end;
+        }
+        .price {
+            @include font($secondaryFont,20,light,normal,32);
+                span {
+                    @include font($secondaryFont,13,light,normal,22);
+                }
+                color: $gray-700;
+            @include breakpoint(mobile768) {
+                @include font($secondaryFont,20,light,normal,32);
+                span {
+                    @include font($secondaryFont,13,light,normal,22);
+                }
+            }
+            @include breakpoint(tab992) {
+                @include font($secondaryFont,26,light,normal,32);
+                span {
+                    @include font($secondaryFont,14,light,normal,22);
+                }
+            }
+            
+        }
+        .select-btn {
+
+        }
+        .require-document {
+
+        }
+    }
+
+    .detail-info {
+        @include border-single(top,solid,1,$linkborder);
+        padding: size(16);
+        @include breakpoint(tab992) {
+            padding: size(32);
+        }
+        .detail-inner {
+            background: $gray-100;
+            padding: size(16);
+            @include radius(14);
+            @include flex-column;
+            gap: size(40);
+            @include breakpoint(tab992) {
+                padding: size(26);
+            }
+
+        }
+        .visabox {
+            @include flex-column;
+            gap: size(40);
+            .title {
+                color: $gray-700;
+                @include font($secondaryFont,24,normal,normal,24);
+            }
+            .visabox-list {
+                @include list-vertical;
+                gap: size(12);
+                padding-left: size(6);
+
+                &-item {
+                    color: $gray-600;
+                    @include font($secondaryFont,14,normal,normal,24);
+                    @include breakpoint(mobile768) {
+                        @include font($secondaryFont,14,normal,normal,20);
+                    }
+                    &:before {
+                        content: url("data:image/svg+xml,%3Csvg width='14' height='12' viewBox='0 0 12 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 9.4L0 5.4L1.4 4L4 6.6L10.6 0L12 1.4L4 9.4Z' fill='%23718096'/%3E%3C/svg%3E%0A");
+                        margin-right: size(8);
+                    }
+                    // display: none;
+                }
+            }
+        }
+    }
+}
+
+.tagline {
+    @include setBgColor($yellow-light,$offBtnText);
+    padding: size(6) size(10);
+    @include flex-center-horiz;
+    gap: size(10);
+    @include radius(8);
+    @include font($secondaryFont,16,normal,normal,26);
+    .text{
+        margin-top: size(2);
+    }
+}
+
+.booking-card {
+    background: $white;
+    @include radius(16);
+    @include flex-column;
+    padding-bottom: size(20);
+    gap: size(30);
+    &-header {
+        @include flex;
+        flex-wrap: wrap;
+        gap: size(10);
+        // @include border-single(bottom,solid,1);
+        border-bottom: size(1)  solid $linkborder;
+        align-items: center;
+
+        span {
+            display: inline-block;
+            @include h100;
+            flex-grow: 1;
+            padding: size(10);
+            color: $gray-600;
+            @include font($secondaryFont,12,normal,normal,14);
+            @include breakpoint(tab992) {
+                border-right: size(1)  solid $linkborder;
+                @include font($secondaryFont,14,normal,normal,14);
+            }
+            &:nth-of-type(3) {
+                border-right: none;
+            }
+            &:nth-of-type(4) {
+                border-right: none;
+            }
+            &.confirm {
+               padding: size(4) size(10);
+              @include breakpoint(tab992) {
+                text-align: right;
+              }
+            }
+            button {
+                @include setBgColor($gray-400,$gray-700);
+                @include radius(8);
+                width: size(110);
+                height: size(26);
+            
+                
+                
+                text-align: center;
+            }
+        }
+    }
+    &-body {
+
+    }
+}
+
+.booked__card {
+    background: $white;
+    margin-top: size(24);
+    @include radius(16);
+
+    &-header {
+        @include border-single(bottom,solid,1,$gray-300);
+        @include flex-between;
+        align-items: center;
+        .booking__id {
+            @include border-single(right,solid,1,$gray-300);
+            padding-right: size(10);
+            padding: size(10);
+            @include breakpoint(mobile414) {
+                padding-right: size(30);
+            }
+            span {
+                @include font($secondaryFont,14,normal,normal,16);
+                color: $gray-600;
+            }
+        }
+        .confirm {
+            padding: size(10);
+            .confirm__btn {
+                @include setBgColor($gray-400,$gray-700);
+                @include radius(8);
+                padding: size(6) size(22);
+                @include font($secondaryFont,13,normal,normal,16);
+
+            }
+        }
+    }
+    &-body {
+        .names__info {
+            display: flex;
+            justify-content: flex-start;
+            gap: size(10);
+            padding: size(18) size(24);
+            flex-direction: column;
+            @include breakpoint(mobile576) {
+                flex-direction: row;
+                gap: size(40)
+            }
+            .left {
+                @include flex-column;
+                gap: size(16);
+                @include breakpoint(mobile576) {
+                    flex-basis: 50%;
+                }
+                .name {
+                    color: $gray-700;
+                    @include font($secondaryFont,22,normal,normal,22);
+
+                }
+                .location-box {
+                    @include flex;
+                    align-items: center;
+                    gap: size(20);
+
+                    .location-text {
+                        span {
+                            color: $gray-600;
+                           @include font($secondaryFont,14,normal,normal,22);
+                           @include breakpoint(mobile768) {
+                            @include font($secondaryFont,16,normal,normal,22);
+
+                           }
+
+                        }
+                    }
+
+                    .check__dates {
+                        flex-grow: 1;
+                        .check__box {
+                            @include border(solid,1,$gray-300);
+                            @include radius(8);
+                            @include flex;
+                            .checkin {
+                                @include border-single(right,solid,1,$gray-300);
+                                padding: size(20) size(12);
+                                @include flex-column;
+                                gap: size(8);
+                                flex-grow: 1;
+                                &-title {
+                                    color: $gray-600; 
+                                    @include font($secondaryFont,10,normal,normal,10);
+        
+                                }
+                                &-date {
+                                    color: $gray-700;
+                                    @include font($secondaryFont,14,normal,normal,16);
+        
+                                }
+                            }
+                            .checkout {
+                                flex-grow: 1;
+                                padding: size(20) size(12);
+                                @include flex-column;
+                                gap: size(8);
+        
+                                &-title {
+                                    color: $gray-600; 
+                                    @include font($secondaryFont,10,normal,normal,10);
+        
+                                }
+                                &-date {
+                                    color: $gray-700;
+                                    @include font($secondaryFont,14,normal,normal,16);
+        
+                                }
+                               
+                            }
+                        }
+                    }
+                    
+
+
+                }
+            }
+
+            .right {
+                @include flex-column;
+                gap: size(6);
+                .contact-title {
+                    color: $gray-600;
+                    @include font($secondaryFont,14,normal,normal,16);
+                    
+                }
+                .contact-name {
+                    color: $gray-700;
+                    @include font($secondaryFont,14,normal,normal,16);
+
+                }
+            }
+        }
+        .dates__info {
+            @include flex;
+            gap: size(16);
+            flex-wrap: wrap;
+            padding: size(18) size(24);
+            .check__dates {
+                flex-grow: 1;
+                .check__box {
+                    @include border(solid,1,$gray-300);
+                    @include radius(8);
+                    @include flex;
+                    .checkin {
+                        @include border-single(right,solid,1,$gray-300);
+                        padding: size(20) size(12);
+                        @include flex-column;
+                        gap: size(8);
+                        flex-grow: 1;
+                        &-title {
+                            color: $gray-600; 
+                            @include font($secondaryFont,10,normal,normal,10);
+
+                        }
+                        &-date {
+                            color: $gray-700;
+                            @include font($secondaryFont,14,normal,normal,16);
+
+                        }
+                    }
+                    .checkout {
+                        flex-grow: 1;
+                        padding: size(20) size(12);
+                        @include flex-column;
+                        gap: size(8);
+
+                        &-title {
+                            color: $gray-600; 
+                            @include font($secondaryFont,10,normal,normal,10);
+
+                        }
+                        &-date {
+                            color: $gray-700;
+                            @include font($secondaryFont,14,normal,normal,16);
+
+                        }
+                       
+                    }
+                }
+            }
+
+            .guests {
+                flex-grow: 1;
+                .guest__box {
+                    @include border(solid,1,$gray-300);
+                    @include radius(8);
+                    padding: size(16) size(12);
+
+                    .guest-title {
+                        color: $gray-600; 
+                        @include font($secondaryFont,10,normal,normal,10);
+                    }
+                    .guest-count {
+                        @include flex;
+                        gap: size(10);
+                        color: $gray-700;
+                        @include font($secondaryFont,14,normal,normal,16);
+                    }
+                }
+            }
+        }
+
+        .custom-border {
+            @include border-single (right,dashed,1,$gray-400);
+        }
+        .right-col {
+            padding: size(18) size(24);
+            .total-table {
+                @include w100;
+                tr {
+                    td {
+                        min-width: size(50);
+                        @include font($secondaryFont,12,normal,normal,10);
+                        padding: size(14) size(0);
+                        .title-wrapper {
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            max-width: size(100);
+                        }
+                        &.first {
+                            @include flex;
+                        }
+                    }
+                }
+            }
+            .price {
+                @include flex-end;
+                span {
+                    @include font($secondaryFont,26,normal,normal,30);
+                    color: $gray-700;
+
+                }
+            }
+        }
+
+       
+    }
+
+    &.visa__booked-card {
+        .booked__card-header {
+            @include border-single(bottom,solid,1,$gray-300);
+            @include flex-between;
+            align-items: center;
+            .booking__id {
+                @include border-single(right,solid,1,$gray-300);
+                padding-right: size(10);
+                padding: size(10);
+                @include breakpoint(mobile414) {
+                    padding-right: size(30);
+                }
+                span {
+                    @include font($secondaryFont,14,normal,normal,16);
+                    color: $gray-600;
+                }
+            }
+            .confirm {
+                padding: size(10);
+                .confirm__btn {
+                    @include setBgColor($gray-400,$gray-700);
+                    @include radius(8);
+                    padding: size(6) size(22);
+                    @include font($secondaryFont,13,normal,normal,16);
+    
+                }
+            }
+        }
+        .booked__card-body {
+            .names__info {
+                display: flex;
+                justify-content: flex-start;
+                gap: size(10);
+                padding: size(18) size(24);
+                flex-direction: column;
+                @include breakpoint(mobile576) {
+                    flex-direction: row;
+                    gap: size(40)
+                }
+                .left {
+                    @include flex-column;
+                    gap: size(16);
+                    flex-grow: 1;
+                    @include breakpoint(mobile576) {
+                        flex-basis: 50%;
+                    }
+                    .name {
+                        color: $gray-700;
+                        @include font($secondaryFont,22,normal,normal,22);
+    
+                    }
+                    .name-box {
+                        @include flex-between;
+                        gap: size(20);
+                        align-items: flex-start;
+                        flex-wrap: wrap;
+                        @include breakpoint(tab992) {
+                            flex-wrap: nowrap;
+                        }
+                        .name {
+                            line-height: 1.3;
+                            @include font($secondaryFont,16,normal,normal,26);
+                            
+                           @include breakpoint(mobile576) {
+                            @include font($secondaryFont,20,normal,normal,26);
+
+                           }
+                        }
+                        .val {
+                            min-width: size(140);
+                            color: $gray-700;
+                            @include font($secondaryFont,16,normal,normal,26);
+
+                           @include breakpoint(mobile576) {
+                            @include font($secondaryFont,20,normal,normal,26);
+
+                           }
+
+                        }
+                       
+                    }
+                    .location-box {
+                        @include flex;
+                        align-items: center;
+                        gap: size(20);
+                        flex-wrap: wrap;
+                        .location-text {
+                            max-width: 50%;
+                            span {
+                                color: $gray-600;
+                               @include font($secondaryFont,14,normal,normal,22);
+                               @include breakpoint(mobile768) {
+                                @include font($secondaryFont,16,normal,normal,22);
+    
+                               }
+    
+                            }
+                        }
+    
+                        .check__dates {
+                            flex-grow: 0;
+                            .check__box {
+                                @include border(solid,1,$gray-300);
+                                @include radius(8);
+                                @include flex;
+                                min-width: size(200);
+                                .checkin {
+                                    @include border-single(right,solid,1,$gray-300);
+                                    padding: size(20) size(12);
+                                    @include flex-column;
+                                    gap: size(8);
+                                    flex-grow: 1;
+                                    &-title {
+                                        color: $gray-600; 
+                                        @include font($secondaryFont,10,normal,normal,10);
+            
+                                    }
+                                    &-date {
+                                        color: $gray-700;
+                                        @include font($secondaryFont,14,normal,normal,16);
+            
+                                    }
+                                }
+                                .checkout {
+                                    flex-grow: 1;
+                                    padding: size(20) size(12);
+                                    @include flex-column;
+                                    gap: size(8);
+            
+                                    &-title {
+                                        color: $gray-600; 
+                                        @include font($secondaryFont,10,normal,normal,10);
+            
+                                    }
+                                    &-date {
+                                        color: $gray-700;
+                                        @include font($secondaryFont,14,normal,normal,16);
+            
+                                    }
+                                   
+                                }
+                            }
+                        }
+                        
+    
+    
+                    } 
+                }
+    
+              
+            }
+            .dates__info {
+                @include flex;
+                gap: size(16);
+                flex-wrap: wrap;
+                padding: size(18) size(24);
+                .check__dates {
+                    flex-grow: 1;
+                    .check__box {
+                        @include border(solid,1,$gray-300);
+                        @include radius(8);
+                        @include flex;
+                        .checkin {
+                            @include border-single(right,solid,1,$gray-300);
+                            padding: size(20) size(12);
+                            @include flex-column;
+                            gap: size(8);
+                            flex-grow: 1;
+                            &-title {
+                                color: $gray-600; 
+                                @include font($secondaryFont,10,normal,normal,10);
+    
+                            }
+                            &-date {
+                                color: $gray-700;
+                                @include font($secondaryFont,14,normal,normal,16);
+    
+                            }
+                        }
+                        .checkout {
+                            flex-grow: 1;
+                            padding: size(20) size(12);
+                            @include flex-column;
+                            gap: size(8);
+    
+                            &-title {
+                                color: $gray-600; 
+                                @include font($secondaryFont,10,normal,normal,10);
+    
+                            }
+                            &-date {
+                                color: $gray-700;
+                                @include font($secondaryFont,14,normal,normal,16);
+    
+                            }
+                           
+                        }
+                    }
+                }
+    
+                .guests {
+                    flex-grow: 1;
+                    .guest__box {
+                        @include border(solid,1,$gray-300);
+                        @include radius(8);
+                        padding: size(16) size(12);
+    
+                        .guest-title {
+                            color: $gray-600; 
+                            @include font($secondaryFont,10,normal,normal,10);
+                        }
+                        .guest-count {
+                            @include flex;
+                            gap: size(10);
+                            color: $gray-700;
+                            @include font($secondaryFont,14,normal,normal,16);
+                        }
+                    }
+                }
+            }
+    
+            .custom-border {
+                border: none;
+                @include breakpoint(tab992) {
+                    @include border-single (right,dashed,1,$gray-400);
+
+                }
+            }
+            .right-col {
+                padding: size(18) size(24);
+                .total-table {
+                    @include w100;
+                    tr {
+                        th {
+                            font-size: size(12);
+                        }
+                        td{
+                            min-width: size(50);
+                            @include font($secondaryFont,12,normal,normal,10);
+                            padding: size(14) size(0);
+                            .title-wrapper {
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                max-width: size(100);
+                            }
+                            &.first {
+                                @include flex;
+                            }
+                        }
+                    }
+                }
+                .price {
+                    @include flex-end;
+                    span {
+                        @include font($secondaryFont,26,normal,normal,30);
+                        color: $gray-700;
+    
+                    }
+                }
+            }
+    
+           
+        }
+    }
+}

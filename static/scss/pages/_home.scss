@@ -1,0 +1,400 @@
+@use '../global' as *;
+@use '../partials' as *;
+
+.gap {
+  height: size(70);
+  @include breakpoint(mobile576) {
+    height: size(100);
+  }
+
+}
+.booking {
+  position: relative;
+  // z-index: 1;
+  margin-top: size(-140);
+  @include breakpoint (mobile576) {
+    margin-top: size(-200);
+  }
+  @include breakpoint (mobile768) {
+    margin-top: size(-250);
+  }
+  @include breakpoint (tab992) {
+    margin-top: size(-360);
+  }
+  @include breakpoint (desktop1200) {
+    margin-top: size(-500);
+  }
+  .bg{
+    background: rgba(216, 224, 232, 0.3);
+    padding: size(0);
+    @include radius(24);
+    @include breakpoint(mobile768){
+      padding: size(14);
+    }
+    @include breakpoint(tab992){
+      padding: size(24);
+    }
+  }
+  &-content {
+    background: $white;
+    border-radius: 24px;
+  }
+  &-top{
+    .booking-tab {
+     padding: size(20);
+     @include breakpoint(mobile768){
+      padding: size(20);
+     }
+     .select-trip {
+      @include flex-column;
+      gap:size(20);
+      @include breakpoint(mobile768){
+        flex-direction: row;
+      }
+      .trip-radios{
+        @include flex;
+        gap: size(16);
+        flex-wrap: wrap;
+        @include breakpoint (mobile576) {
+          gap: size(24);
+        }
+        .customradio {
+          .customradio-label {
+            padding-left: size(30);
+          }
+        }
+      }
+      .trip-selects{
+        @include flex;
+        gap: size(20);
+        @include breakpoint (mobile576) {
+          gap: size(30);
+        }
+
+      }
+     }
+     .input-box {
+      @include border(solid,1,$linkborder);   
+      height: size(80);
+      @include flex-column;
+      gap: size(4);
+      justify-content: center;
+      padding-left: size(24);
+      position: relative;
+
+      @include transitionsbackground;
+      @include radius(8);
+      @include breakpoint(tab992){
+        @include radius(0);
+      }
+      &:focus-within {
+        @include setBgColor($linkborder,$gray-800);
+      
+      } 
+     
+      &.buttons {
+        .value-box {
+          @include flex;
+          @include breakpoint(tab992) {
+            flex-wrap: wrap;
+            gap:size(4)
+          }
+          @include breakpoint(desktop1200) {
+            flex-wrap: nowrap;
+          }
+
+        }
+        .incdec-buttons {
+          @include flex; 
+          gap: size(8);
+          padding-right: size(10);
+          button {
+            background-color: $linkborder;
+            @include radius(4);
+            @include square(24);
+            @include flex-center;
+            @include font($secondaryFont,24,normal,normal,44);
+            padding-bottom: size(4);
+          }
+         }
+
+         &:focus-within {
+          @include setBgColor($white,$gray-800);
+        } 
+      }
+      
+        .input-label{
+          @include font($secondaryFont,10,normal,normal,10);
+          color: $gray-600;
+          
+        }
+        .input-field{
+          color: $gray-700;
+          @include font($secondaryFont,14,medium,normal,14);
+          background: transparent;
+          @include w100;
+          &:focus {
+            ~ {
+              .dropdown-list {
+                display: block;
+              }
+            }
+          }
+
+          @include breakpoint(mobile576){
+            @include font($secondaryFont,16,normal,normal,16);
+          }
+
+          
+        }
+        .value-box {
+          @include flex;
+          align-items: center;
+          justify-content: flex-start;
+          gap: size(14);
+          .location-name {
+            // width: calc(100% - size(100));
+            @include font($secondaryFont,10,normal,normal,10);
+            color: $gray-600;
+          } 
+          
+        }
+        .full-name {
+          @include font($secondaryFont,12,normal,normal,12);
+          color: $gray-600;
+        }
+        
+       }
+       .left-box {
+        @include breakpoint(tab992){
+          border-top-left-radius: size(8);
+          border-bottom-left-radius: size(8);
+        }
+        
+       }
+       .right-box {
+        
+        @include breakpoint(tab992) {
+          border-top-right-radius: size(8);
+          border-bottom-right-radius: size(8);
+        }
+       }
+
+       .dropdown-list {
+    
+        position: absolute;
+        top: 100%;
+        background: $white;
+        padding: size(12);
+        box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.2), 0px 1px 3px rgba(50, 50, 71, 0.1);
+        border-radius: 0px 0px 8px 8px;
+        @include w100;
+        left: 0; 
+        z-index: 2;
+        display: none;
+        max-height: size(290);
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        .list-wrapper {
+          
+          .list {
+            @include flex-between;
+            gap: size(10);
+            padding: size(8);
+            @include radius(8);
+            @include transitionsall;
+            cursor: pointer;
+            @include hover {
+              @include setBgColor($linkborder,$gray-800);
+            }
+          }
+          .left {
+            @include flex-column;
+            .small-name {
+              color: $gray-600;
+              @include font($secondaryFont,16,normal,normal,24);
+              @include breakpoint(tab992) {
+                @include font($secondaryFont,16,normal,normal,24);
+              }
+            }
+            .detail-name {
+              color: $gray-600;
+              @include font($secondaryFont,10,normal,normal,14);
+              @include breakpoint(tab992) {
+                @include font($secondaryFont,12,normal,normal,14);
+              }
+            }
+          }
+          .right {
+            .short-name {
+              color: $gray-600;
+              @include font($secondaryFont,16,normal,normal,22);
+              @include breakpoint(tab992) {
+                @include font($secondaryFont,18,normal,normal,24);
+              }
+            }
+          }
+        }
+       } 
+        
+      
+    
+      &-body{
+        background-color: tan;
+      }
+    }
+  }
+
+}
+
+.special-deal {
+  padding: size(40) size(0) size(0);
+  @include breakpoint(tab992){
+    padding: size(100) size(0) size(80);
+  }
+  @include breakpoint(desktop1200){
+    padding: size(180) size(0) size(80);
+  }
+
+  &-content{
+      @include flex-column;
+      gap:size(30);
+
+  }
+
+  &-header{
+     .specialinfo{
+      .special-deal-title{
+          @include font($secondaryFont,18,semibold,normal,18);
+          @include breakpoint(mobile576){
+            @include font($secondaryFont,20,semibold,normal,20);
+          }
+          @include breakpoint(mobile768){
+            @include font($secondaryFont,22,semibold,normal,22);
+          }
+          @include breakpoint(tab992){
+            @include font($secondaryFont,24,semibold,normal,24);
+            color: $gray-700;
+            }
+      }
+     }
+
+  }
+
+  &-body{
+   position: relative;
+  }
+}
+
+.popular-destination {
+  padding: size(40) size(0) size(0);
+  @include breakpoint(tab992){
+    padding: size(80) size(0) size(80);
+  }
+  &-content{
+    @include flex-column;
+      gap:size(30);
+  }
+  &-header {
+    .popularinfo{
+      .popular-destination-title{
+        @include font($secondaryFont,18,semibold,normal,18);
+        color: $gray-700;
+        @include breakpoint(mobile576){
+          @include font($secondaryFont,20,semibold,normal,20);
+        }
+        @include breakpoint(mobile768){
+          @include font($secondaryFont,22,semibold,normal,22);
+        }
+        @include breakpoint(tab992){
+          @include font($secondaryFont,24,semibold,normal,24);
+          color: $gray-700;
+          }
+      }
+    }
+  }
+  &-body {
+    @include flex-column;
+    gap:size(24);
+  }
+}
+
+
+.cheapest-flight {
+  padding: size(40) size(0) size(0);
+  @include breakpoint(tab992){
+    padding: size(80) size(0) size(80);
+  }
+
+  &-content {
+    @include flex-column;
+    gap:size(30);
+  }
+
+  &-header{
+    .cheapestinfo {
+      .cheapest-flight-title {
+        @include font($secondaryFont,18,semibold,normal,18);
+        color: $gray-700;
+
+        @include breakpoint(mobile576) {
+          @include font($secondaryFont,20,semibold,normal,20);
+        }
+
+        @include breakpoint(mobile768) {
+          @include font($secondaryFont,22,semibold,normal,22);
+        }
+
+        @include breakpoint(tab992) {
+          @include font($secondaryFont,24,semibold,normal,24);
+          color: $gray-700;
+          }
+      }
+    }
+  }
+
+  &-body{
+    .single-fligths {
+      @include flex-column;
+      gap:size(10);
+    }
+  }
+
+}
+
+
+.popular-airline {
+  padding: size(40) size(0) size(0);
+  @include breakpoint(tab992){
+    padding: size(80) size(0) size(80);
+  }
+    &-content {
+      @include flex-column;
+      gap:size(30);
+
+  }
+  &-header {
+     .popularinfo{
+      .popular-airline-title{
+        @include font($secondaryFont,18,semibold,normal,18);
+        color: $gray-700;
+        @include breakpoint(mobile576){
+          @include font($secondaryFont,20,semibold,normal,20);
+        }
+        @include breakpoint(mobile768){
+          @include font($secondaryFont,22,semibold,normal,22);
+        }
+        @include breakpoint(tab992){
+          @include font($secondaryFont,24,semibold,normal,24);
+          color: $gray-700;
+          }
+      }
+     }
+
+  } 
+  &-body {
+    position: relative;
+  }
+}

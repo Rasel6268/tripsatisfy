@@ -1,0 +1,62 @@
+@use '../../global' as *;
+@use '../../partials' as *;
+.arrow-container {
+    display: flex;
+    align-items: center;
+    padding: size(10) size(10);
+    padding-right: size(30);
+    .arrow {
+        padding:size(5);
+        border-bottom: size(3) solid #CBD5E0;;
+        border-right: size(3) solid #CBD5E0;;
+        transform: rotate(-45deg);
+        margin:0 size(-11);
+       
+    }
+    .round {
+       @include square(14);
+        background-color: $gray-400;
+        @include circle;
+        position: relative;
+        cursor: pointer;
+    }
+    .content {
+        position: absolute;
+        top: size(-14);
+        left: size(-2);
+        text-align: center;
+        @include font($secondaryFont,10,normal,normal,12);
+        color: $gray-600;
+    }
+}
+.arrow-line {
+    height: size(3);
+    @include w100;
+    background-color: $gray-400;
+    @include radius(10);
+    @include flex-center;
+    gap: size(30);
+}
+
+.arrow-etickt {
+    @include flex-center;
+    .left {
+        @include flex-column;
+    }
+    .middle {
+      
+        min-width: size(150);
+        padding-right: size(4);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .arrow-container {
+            padding: 0;
+            width: 90%;
+        }
+    }
+    .right {
+        @include flex-column;
+    }
+}
